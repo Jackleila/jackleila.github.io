@@ -325,23 +325,23 @@ ul#nav li.current a { color: #000000; }
    border-radius: 3px 0 0 3px;
 }
 
-.photoshop {
-  	width: 60%;
+.php {
+  	width: 65%;
   	-moz-animation: photoshop 2s ease;
   	-webkit-animation: photoshop 2s ease;
 }
-.illustrator {
-  	width: 55%;
+.java {
+  	width: 80%;
   	-moz-animation: illustrator 2s ease;
   	-webkit-animation: illustrator 2s ease;
 }
-.wordpress {
-  	width: 50%;
+.c {
+  	width: 75%;
   	-moz-animation: wordpress 2s ease;
   	-webkit-animation: wordpress 2s ease;
 }
-.css {
-  	width: 90%;
+.sql {
+  	width: 80%;
   	-moz-animation: css 2s ease;
   	-webkit-animation: css 2s ease;
 }
@@ -350,11 +350,45 @@ ul#nav li.current a { color: #000000; }
   	-moz-animation: html5 2s ease;
   	-webkit-animation: html5 2s ease;
 }
-.jquery {
+.javascript {
   	width: 50%;
   	-moz-animation: jquery 2s ease;
   	-webkit-animation: jquery 2s ease;
 }
+
+
+
+.es {
+  	width: 100%;
+  	-moz-animation: photoshop 2s ease;
+  	-webkit-animation: photoshop 2s ease;
+}
+.gal {
+  	width: 100%;
+  	-moz-animation: illustrator 2s ease;
+  	-webkit-animation: illustrator 2s ease;
+}
+.en {
+  	width: 85%;
+  	-moz-animation: wordpress 2s ease;
+  	-webkit-animation: wordpress 2s ease;
+}
+.ger {
+  	width: 75%;
+  	-moz-animation: css 2s ease;
+  	-webkit-animation: css 2s ease;
+}
+.it {
+  	width: 75%;
+  	-moz-animation: html5 2s ease;
+  	-webkit-animation: html5 2s ease;
+}
+.fr {
+  	width: 30%;
+  	-moz-animation: jquery 2s ease;
+  	-webkit-animation: jquery 2s ease;
+}
+
 
 @-moz-keyframes photoshop {
   0%   { width: 0px;  }
