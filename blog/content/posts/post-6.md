@@ -9,7 +9,7 @@ categories: [Shortcodes]
 tags: [image]
 
 
-draft: false
+draft: true
 enableDisqus : true
 enableMathJax: false
 disableToC: false

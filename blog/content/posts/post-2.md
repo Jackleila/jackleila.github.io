@@ -9,7 +9,7 @@ categories: [Hugo]
 tags: [Markdown, test]
 
 
-draft: false
+draft: true
 enableDisqus : true
 enableMathJax: false
 toc: true

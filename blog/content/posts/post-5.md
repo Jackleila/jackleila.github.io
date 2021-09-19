@@ -9,7 +9,7 @@ categories: [Whisper]
 tags: [markdown]
 
 
-draft: false
+draft: true
 enableDisqus : true
 enableMathJax: false
 disableToC: false

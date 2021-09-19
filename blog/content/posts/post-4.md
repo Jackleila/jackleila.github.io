@@ -9,7 +9,7 @@ categories: [Text]
 tags: [plain, chinese]
 
 
-draft: false
+draft: true
 enableDisqus : true
 enableMathJax: false
 disableToC: false
