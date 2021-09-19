@@ -4,6 +4,7 @@ date: 2021-09-19T18:29:06+02:00
 draft: false
 ---
 
+
 يُسمعني حينَ يراقصُني  
 كلمـاتٍ ليست كالكلمات  
 يُسمعني حينَ يراقصُني  
@@ -113,15 +114,42 @@ draft: false
 كلمـات  
 
 
-Cuando baila conmigo me dice palabras
-que no son como ninguna otra palabra.
+Cuando baila conmigo me hace oír  (=me dice )  
+palabras que no son como ninguna otra palabra.  
 
-Me coge del brazo y me planta en una nube
-mientras la lluvia negra cae de mis ojos..
-Gotas densas... Gotas densas
 
-Me lleva con él a una tarde con balcones rosas
-y yo soy solo como una niña en sus manos
-como una pluma llevada por el viento
+Me coge del brazo  
+me planta en una nube  
+la lluvia negra cae de mis ojos..  
+caen gotas... caen gotas  
+
+
+Me lleva con él, me lleva  
+a una tarde con balcones rosas  
+y yo soy solo como una niña en sus manos  
+como una pluma llevada por el viento  
+
+
+Lleva para mí siete lunas en sus manos   
+y un fajo de canciones.    
+
+Él me da el sol, me da verano  
+y una manada de golondrinas  
+ 
+Me dice que soy su obra maestra  
+y que valgo miles de estrellas,  
+que soy un tesoro  
+y que soy la más bella de las pinturas que ha visto  
+
+Me dice cosas que me marean   
+me hace olvidar la danza y los pasos  
+palabras que giran mi historia  
+y me hacen mujar por momentos  
+
+Me construye un castillo de ilusiones    
+donde solo vivo por momentos  
+y vuelvo... vuelvo a mi mesa  
+nada conmigo... excepto palabras   
+
 
 
