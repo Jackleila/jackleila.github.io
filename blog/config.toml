@@ -22,6 +22,7 @@ googleAnalytics = ""
   slogan = "always make it happen"
   description = "A simple and concise hugo theme."
   disqus = ""
+  css = ["css/custom.css"]
 
 [params.valine]
   enable = false
