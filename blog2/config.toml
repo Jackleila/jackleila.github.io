@@ -1,0 +1,4 @@
+baseURL = 'https://jackleila.github.io/blog2/public'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = "ananke"
