@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://jackleila.github.io/programming/public/categories/</loc>
+    <loc>https://jackleila.github.io/programming/public/posts/first-post/</loc>
+    <lastmod>2021-09-19T19:02:57+02:00</lastmod>
   </url><url>
     <loc>https://jackleila.github.io/programming/public/</loc>
+    <lastmod>2021-09-19T19:02:57+02:00</lastmod>
+  </url><url>
+    <loc>https://jackleila.github.io/programming/public/posts/</loc>
+    <lastmod>2021-09-19T19:02:57+02:00</lastmod>
+  </url><url>
+    <loc>https://jackleila.github.io/programming/public/categories/</loc>
   </url><url>
     <loc>https://jackleila.github.io/programming/public/tags/</loc>
   </url>

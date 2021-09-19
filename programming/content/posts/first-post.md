@@ -1,7 +1,7 @@
 ---
 title: "How to create a blog using Hugo"
 date: 2021-09-19T19:02:57+02:00
-draft: true
+draft: false
 ---
 ### What is Hugo?
 
