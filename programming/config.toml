@@ -1,0 +1,70 @@
+baseURL = 'https://jackleila.github.io/programming/public/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = "hulga"
+
+
+[params]
+  # show in HTML meta tag
+  author = "Sara El Kortbi"
+  keywords = "HTML, hugo, CSS"
+  description = "xxx's blog, xxx xx xxxx"
+
+  # change bulma's primary color
+  primaryColor = " #abebc6"
+
+  # subtitle on homepage
+  subtitle = "This is a subtitle"
+
+  # copyright text on footer
+  copyright = "Copyright © 2020 wlh. All rights reserved."
+
+  # enable katex rendering on every post page
+  math = true
+
+  # enable postcss, mainly for css purge (129kB->20kB->4.8kB gzipped, but this makes build slower)
+  postcss = false
+
+  # enable toc on every post page
+  toc = true
+
+  # enable TOC auto collapse
+  autoCollapseToc = true
+
+  # enable prefers-color-scheme:dark
+  darkMedia = true
+
+  # enable hero section's is-bold effect
+  heroBold = true
+
+  # enable PWA, prepare your icons and DON'T forget to modify manifest.json
+  pwa = true
+
+  # disable jsdelivr cdn, default false
+  noCDN = false
+
+# to enable different hightlight themes in light/dark mode 
+[markup]
+  [markup.highlight]
+    noClasses = false
+
+[menu]
+  [[menu.main]]
+    identifier = "index"
+    name = "asd"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "archives"
+    name = "asd"
+    url = "/archives/"
+    weight = 2
+  [[menu.main]]
+    identifier = "about"
+    name = "asd"
+    url = "/about/"
+    weight = 3
+
+[taxonomies]
+category = "categories"
+tag = "tags"

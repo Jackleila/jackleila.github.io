@@ -1,3 +1,6 @@
 [submodule "blog/themes/simpleness"]
 	path = blog/themes/simpleness
 	url = https://github.com/RainerChiang/simpleness.git
+[submodule "programming/themes/hulga"]
+	path = programming/themes/hulga
+	url = https://github.com/wlh320/hugo-theme-hulga.git
