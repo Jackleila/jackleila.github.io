@@ -5,7 +5,7 @@ draft: false
 ---
 ### What is Hugo?
 
-Hugo is an open-source framework to simplify the process of creating static websites. We can find a lot of different templates we can use online, which are usually very simple but beautiful. Some of them are even pretty original [link](https://github.com/panr/hugo-theme-terminal).
+Hugo is an open-source framework to simplify the process of creating static websites. We can find a lot of different templates we can use online, which are usually very simple but beautiful. Some of them are even pretty original [such as this one inspired in Mr. Robot](https://github.com/panr/hugo-theme-terminal).
 
 Now that we had a brief introduction of what Hugo is, let us make the theory into practice.
 
@@ -38,5 +38,5 @@ Installing Hugo on Windows is as easy as typing:
 
 5. Create content by writing
 
-		hugo new post mypost
+		hugo new posts/mypost
 	
