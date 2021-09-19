@@ -2,13 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://jackleila.github.io/blog/public/about/</loc>
-    <lastmod>2021-09-19T14:19:20+02:00</lastmod>
+    <loc>https://jackleila.github.io/blog2/public/posts/my-first-post/</loc>
+    <lastmod>2021-09-19T15:35:07+02:00</lastmod>
   </url><url>
-    <loc>https://jackleila.github.io/blog/public/categories/</loc>
+    <loc>https://jackleila.github.io/blog2/public/</loc>
+    <lastmod>2021-09-19T15:35:07+02:00</lastmod>
   </url><url>
-    <loc>https://jackleila.github.io/blog/public/</loc>
+    <loc>https://jackleila.github.io/blog2/public/posts/</loc>
+    <lastmod>2021-09-19T15:35:07+02:00</lastmod>
   </url><url>
-    <loc>https://jackleila.github.io/blog/public/tags/</loc>
+    <loc>https://jackleila.github.io/blog2/public/categories/</loc>
+  </url><url>
+    <loc>https://jackleila.github.io/blog2/public/tags/</loc>
   </url>
 </urlset>

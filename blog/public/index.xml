@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Its a Devs world</title>
-    <link>https://jackleila.github.io/blog/public/</link>
-    <description>Recent content on Its a Devs world</description>
+    <title>My New Hugo Site</title>
+    <link>https://jackleila.github.io/blog2/public/</link>
+    <description>Recent content on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://jackleila.github.io/blog/public/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Sun, 19 Sep 2021 15:35:07 +0200</lastBuildDate><atom:link href="https://jackleila.github.io/blog2/public/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>About</title>
-      <link>https://jackleila.github.io/blog/public/about/</link>
-      <pubDate>Sun, 19 Sep 2021 14:19:20 +0200</pubDate>
+      <title>My First Post</title>
+      <link>https://jackleila.github.io/blog2/public/posts/my-first-post/</link>
+      <pubDate>Sun, 19 Sep 2021 15:35:07 +0200</pubDate>
       
-      <guid>https://jackleila.github.io/blog/public/about/</guid>
-      <description>test 2</description>
+      <guid>https://jackleila.github.io/blog2/public/posts/my-first-post/</guid>
+      <description>Hi there Sara. Let&amp;rsquo;s see if this shows up anywhere!</description>
     </item>
     
   </channel>
