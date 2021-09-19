@@ -1,7 +1,7 @@
 ---
 title: "Kalimat"
 date: 2021-09-19T18:29:06+02:00
-draft: false
+draft: true
 ---
 
 
