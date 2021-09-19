@@ -1,13 +1,42 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Its a Devs World</title>
+    <title>Kalimat</title>
     <link>https://jackleila.github.io/blog/public/</link>
-    <description>Recent content on Its a Devs World</description>
+    <description>Recent content on Kalimat</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>[Home](/) &amp;#183; Theme [Simpleness](https://github.com/RainerChiang/simpleness) Powered by [Hugo](https://gohugo.io/)</copyright>
-    <lastBuildDate>Wed, 18 Sep 2019 12:13:38 +0500</lastBuildDate><atom:link href="https://jackleila.github.io/blog/public/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 19 Sep 2021 18:29:06 +0200</lastBuildDate><atom:link href="https://jackleila.github.io/blog/public/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kalimat</title>
+      <link>https://jackleila.github.io/blog/public/posts/post-7/</link>
+      <pubDate>Sun, 19 Sep 2021 18:29:06 +0200</pubDate>
+      
+      <guid>https://jackleila.github.io/blog/public/posts/post-7/</guid>
+      <description>يُسمعني حينَ يراقصُني
+كلمـاتٍ ليست كالكلمات
+يُسمعني حينَ يراقصُني
+كلمـاتٍ ليست كالكلمات
+يأخذني من تحتِ ذراعي
+يزرعني في إحدى الغيمات
+يُسمعني حينَ يراقصُني
+كلمـاتٍ ليست كالكلمات
+يأخذني من تحتِ ذراعي
+يزرعني في إحدى الغيمات
+والمطرُ الأسودُ في عيني
+يتساقطُ زخاتٍ زخات
+والمطرُ الأسـودُ في عيني
+يتساقطُ زخاتٍ زخات
+يحملني معهُ، يحملني
+لمساءٍ ورديِ الشُرفات
+لمساءٍ ورديِ الشُرفات
+يُسمعني حينَ يراقصُني
+كلمـاتٍ ليست كالكلمات
+يأخذني من تحتِ ذراعي
+يزرعني في إحدى الغيمات</description>
+    </item>
+    
     <item>
       <title>About</title>
       <link>https://jackleila.github.io/blog/public/about/</link>

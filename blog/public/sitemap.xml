@@ -2,19 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jackleila.github.io/blog/public/</loc>
+    <lastmod>2021-09-19T18:29:06+02:00</lastmod>
+  </url><url>
+    <loc>https://jackleila.github.io/blog/public/posts/post-7/</loc>
+    <lastmod>2021-09-19T18:29:06+02:00</lastmod>
+  </url><url>
+    <loc>https://jackleila.github.io/blog/public/posts/</loc>
+    <lastmod>2021-09-19T18:29:06+02:00</lastmod>
+  </url><url>
     <loc>https://jackleila.github.io/blog/public/about/</loc>
     <lastmod>2020-09-22T10:37:58+05:30</lastmod>
   </url><url>
     <loc>https://jackleila.github.io/blog/public/categories/</loc>
     <lastmod>2020-10-09T10:13:38+08:00</lastmod>
   </url><url>
-    <loc>https://jackleila.github.io/blog/public/</loc>
-    <lastmod>2020-10-09T10:13:38+08:00</lastmod>
-  </url><url>
     <loc>https://jackleila.github.io/blog/public/tags/markdown/</loc>
-    <lastmod>2020-10-09T10:13:38+08:00</lastmod>
-  </url><url>
-    <loc>https://jackleila.github.io/blog/public/posts/</loc>
     <lastmod>2020-10-09T10:13:38+08:00</lastmod>
   </url><url>
     <loc>https://jackleila.github.io/blog/public/tags/</loc>

@@ -5,7 +5,7 @@ enableInlineShortcodes = true
 enableEmoji = true
 # pagination = 10
 
-title = "Its a Devs World"
+title = "Kalimat"
 author = "Sara El Kortbi"
 copyright = "[Home](/) &#183; Theme [Simpleness](https://github.com/RainerChiang/simpleness) Powered by [Hugo](https://gohugo.io/)"
 
@@ -22,7 +22,6 @@ googleAnalytics = ""
   slogan = "always make it happen"
   description = "A simple and concise hugo theme."
   disqus = ""
-  css = ["css/custom.css"]
 
 [params.valine]
   enable = false

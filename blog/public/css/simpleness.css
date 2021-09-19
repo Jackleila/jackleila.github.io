@@ -64,7 +64,7 @@
   text-decoration: none;
   }
 }
-
+/*
 @media (prefers-color-scheme: dark) {
   html {
     background: var(--blank-color);
@@ -99,7 +99,7 @@
     padding: .1em .3em;
   }
 }
-
+*/
 
 /* ------- html -------*/
 html {
