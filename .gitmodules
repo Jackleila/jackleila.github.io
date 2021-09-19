@@ -6,3 +6,6 @@
 [submodule "blog2/themes/ananke"]
 	path = blog2/themes/ananke
 	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git
+[submodule "blog2/themes/blackburn"]
+	path = blog2/themes/blackburn
+	url = https://github.com/yoshiharuyamashita/blackburn.git
