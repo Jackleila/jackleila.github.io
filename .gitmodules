@@ -1,0 +1,6 @@
+[submodule "themes"]
+	path = themes
+	url = https://github.com/yoshiharuyamashita/blackburn.git
+[submodule "blog/themes"]
+	path = blog/themes
+	url = https://github.com/yoshiharuyamashita/blackburn.git
