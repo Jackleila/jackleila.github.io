@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Its a Devs world</title>
-    <link>https://jackleila.github.io/categories/</link>
+    <link>https://jackleila.github.io/blog/public/categories/</link>
     <description>Recent content in Categories on Its a Devs world</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://jackleila.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://jackleila.github.io/blog/public/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
