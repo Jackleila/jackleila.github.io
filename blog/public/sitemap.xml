@@ -2,70 +2,70 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://example.org/about/</loc>
+    <loc>https://jackleila.github.io/blog/public/about/</loc>
     <lastmod>2020-09-22T10:37:58+05:30</lastmod>
   </url><url>
-    <loc>http://example.org/categories/</loc>
+    <loc>https://jackleila.github.io/blog/public/categories/</loc>
     <lastmod>2020-10-09T10:13:38+08:00</lastmod>
   </url><url>
-    <loc>http://example.org/</loc>
+    <loc>https://jackleila.github.io/blog/public/</loc>
     <lastmod>2020-10-09T10:13:38+08:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/markdown/</loc>
+    <loc>https://jackleila.github.io/blog/public/tags/markdown/</loc>
     <lastmod>2020-10-09T10:13:38+08:00</lastmod>
   </url><url>
-    <loc>http://example.org/posts/</loc>
+    <loc>https://jackleila.github.io/blog/public/posts/</loc>
     <lastmod>2020-10-09T10:13:38+08:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://jackleila.github.io/blog/public/tags/</loc>
     <lastmod>2020-10-09T10:13:38+08:00</lastmod>
   </url><url>
-    <loc>http://example.org/posts/post-5/</loc>
+    <loc>https://jackleila.github.io/blog/public/posts/post-5/</loc>
     <lastmod>2020-10-09T10:13:38+08:00</lastmod>
   </url><url>
-    <loc>http://example.org/categories/whisper/</loc>
+    <loc>https://jackleila.github.io/blog/public/categories/whisper/</loc>
     <lastmod>2020-10-09T10:13:38+08:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/image/</loc>
+    <loc>https://jackleila.github.io/blog/public/tags/image/</loc>
     <lastmod>2020-10-09T10:13:38+08:00</lastmod>
   </url><url>
-    <loc>http://example.org/posts/post-6/</loc>
+    <loc>https://jackleila.github.io/blog/public/posts/post-6/</loc>
     <lastmod>2020-10-09T10:13:38+08:00</lastmod>
   </url><url>
-    <loc>http://example.org/categories/shortcodes/</loc>
+    <loc>https://jackleila.github.io/blog/public/categories/shortcodes/</loc>
     <lastmod>2020-10-09T10:13:38+08:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/chinese/</loc>
+    <loc>https://jackleila.github.io/blog/public/tags/chinese/</loc>
     <lastmod>2020-10-09T10:13:38+08:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/plain/</loc>
+    <loc>https://jackleila.github.io/blog/public/tags/plain/</loc>
     <lastmod>2020-10-09T10:13:38+08:00</lastmod>
   </url><url>
-    <loc>http://example.org/categories/text/</loc>
+    <loc>https://jackleila.github.io/blog/public/categories/text/</loc>
     <lastmod>2020-10-09T10:13:38+08:00</lastmod>
   </url><url>
-    <loc>http://example.org/posts/post-4/</loc>
+    <loc>https://jackleila.github.io/blog/public/posts/post-4/</loc>
     <lastmod>2020-10-09T10:13:38+08:00</lastmod>
   </url><url>
-    <loc>http://example.org/categories/hugo/</loc>
+    <loc>https://jackleila.github.io/blog/public/categories/hugo/</loc>
     <lastmod>2020-10-09T10:13:38+08:00</lastmod>
   </url><url>
-    <loc>http://example.org/posts/post-3/</loc>
+    <loc>https://jackleila.github.io/blog/public/posts/post-3/</loc>
     <lastmod>2020-10-09T10:13:38+08:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/mathjax/</loc>
+    <loc>https://jackleila.github.io/blog/public/tags/mathjax/</loc>
     <lastmod>2020-10-09T10:13:38+08:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/test/</loc>
+    <loc>https://jackleila.github.io/blog/public/tags/test/</loc>
     <lastmod>2020-10-09T10:13:38+08:00</lastmod>
   </url><url>
-    <loc>http://example.org/posts/post-2/</loc>
+    <loc>https://jackleila.github.io/blog/public/posts/post-2/</loc>
     <lastmod>2020-10-09T10:13:38+08:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/emoji/</loc>
+    <loc>https://jackleila.github.io/blog/public/tags/emoji/</loc>
     <lastmod>2020-10-09T10:13:38+08:00</lastmod>
   </url><url>
-    <loc>http://example.org/posts/post-1/</loc>
+    <loc>https://jackleila.github.io/blog/public/posts/post-1/</loc>
     <lastmod>2020-10-09T10:13:38+08:00</lastmod>
   </url>
 </urlset>
