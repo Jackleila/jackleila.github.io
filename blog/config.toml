@@ -1,0 +1,3 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'Its a Devs world'
