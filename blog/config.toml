@@ -1,4 +1,4 @@
-baseURL = 'https://jackleila.github.io/'
+baseURL = 'https://jackleila.github.io/blog'
 languageCode = 'en-us'
 title = 'Its a Devs world'
 theme = "blackburn"
