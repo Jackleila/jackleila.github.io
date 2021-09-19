@@ -1,5 +1,3 @@
-
-[submodule "blog2/themes/ananke"]
-	path = blog2/themes/ananke
-	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git
-
+[submodule "blog/themes/simpleness"]
+	path = blog/themes/simpleness
+	url = https://github.com/RainerChiang/simpleness.git

@@ -1,10 +1,75 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Its a Devs world</title>
-    <link>https://jackleila.github.io/blog/public/tags/</link>
-    <description>Recent content in Tags on Its a Devs world</description>
+    <title>Tags on Hugo</title>
+    <link>http://example.org/tags/</link>
+    <description>Recent content in Tags on Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://jackleila.github.io/blog/public/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <copyright>[Home](/) &amp;#183; Theme [Simpleness](https://github.com/RainerChiang/simpleness) Powered by [Hugo](https://gohugo.io/)</copyright>
+    <lastBuildDate>Wed, 18 Sep 2019 12:13:38 +0500</lastBuildDate><atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Markdown</title>
+      <link>http://example.org/tags/markdown/</link>
+      <pubDate>Wed, 18 Sep 2019 12:13:38 +0500</pubDate>
+      
+      <guid>http://example.org/tags/markdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>image</title>
+      <link>http://example.org/tags/image/</link>
+      <pubDate>Fri, 06 Sep 2019 12:13:36 +0530</pubDate>
+      
+      <guid>http://example.org/tags/image/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>chinese</title>
+      <link>http://example.org/tags/chinese/</link>
+      <pubDate>Sun, 18 Mar 2018 12:13:35 +0530</pubDate>
+      
+      <guid>http://example.org/tags/chinese/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>plain</title>
+      <link>http://example.org/tags/plain/</link>
+      <pubDate>Sun, 18 Mar 2018 12:13:35 +0530</pubDate>
+      
+      <guid>http://example.org/tags/plain/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MathJax</title>
+      <link>http://example.org/tags/mathjax/</link>
+      <pubDate>Sun, 18 Mar 2018 12:13:32 +0530</pubDate>
+      
+      <guid>http://example.org/tags/mathjax/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>http://example.org/tags/test/</link>
+      <pubDate>Sun, 18 Mar 2018 12:13:32 +0530</pubDate>
+      
+      <guid>http://example.org/tags/test/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>emoji</title>
+      <link>http://example.org/tags/emoji/</link>
+      <pubDate>Wed, 18 Jan 2017 02:01:58 +0530</pubDate>
+      
+      <guid>http://example.org/tags/emoji/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
