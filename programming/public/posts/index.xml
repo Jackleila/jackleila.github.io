@@ -6,16 +6,26 @@
     <description>Recent content in Posts on Its a Devs world</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 19 Sep 2021 19:02:57 +0200</lastBuildDate><atom:link href="https://jackleila.github.io/programming/public/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 21 Sep 2021 20:40:40 +0200</lastBuildDate><atom:link href="https://jackleila.github.io/programming/public/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>How to create a blog using Hugo</title>
+      <title>Nmap: basic guide for pentesting</title>
+      <link>https://jackleila.github.io/programming/public/posts/second-post/</link>
+      <pubDate>Tue, 21 Sep 2021 20:40:40 +0200</pubDate>
+      
+      <guid>https://jackleila.github.io/programming/public/posts/second-post/</guid>
+      <description>Nmap is a well-known tool for pentesters and hackers. It basically allows us to scan the ports of a network, but it is much more powerful than that, as we will see in this post.
+Scanning ports with Nmap We can use nmap IP -p PORT to perform an scan of the 1000 most important ports of the specified address. This will show us which ports are open, closed, or protected by some firewall.</description>
+    </item>
+    
+    <item>
+      <title>How to easily create a blog using Hugo</title>
       <link>https://jackleila.github.io/programming/public/posts/first-post/</link>
       <pubDate>Sun, 19 Sep 2021 19:02:57 +0200</pubDate>
       
       <guid>https://jackleila.github.io/programming/public/posts/first-post/</guid>
-      <description>What is Hugo? Hugo is an open-source framework to simplify the process of creating static websites. We can find a lot of different templates we can use online, which are usually very simple but beautiful. Some of them are even pretty original such as this one inspired in Mr. Robot.
+      <description>What is Hugo? Hugo is an open-source framework to simplify the process of creating static websites. There are a lot of different templates we can use online, which are usually very simple but beautiful. Some of them are even pretty original such as this one inspired in Mr. Robot.
 Now that we had a brief introduction of what Hugo is, let us make the theory into practice.
-Installation Windows Installing Hugo on Windows is as easy as typing:</description>
+Installation Windows We can install Hugo on Windows with Chocolatey:</description>
     </item>
     
   </channel>

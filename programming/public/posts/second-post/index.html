@@ -4,17 +4,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="msapplication-TileImage" content="/ms-icon-144x144.png"><meta name="msapplication-TileColor" content=" #abebc6">
-  <meta name="theme-color" content=" #abebc6"><title>How to easily create a blog using Hugo | Its a Devs world</title>
-  <meta property="og:title" content="How to easily create a blog using Hugo - Its a Devs world">
+  <meta name="theme-color" content=" #abebc6"><title>Nmap: basic guide for pentesting | Its a Devs world</title>
+  <meta property="og:title" content="Nmap: basic guide for pentesting - Its a Devs world">
   <meta property="og:type" content="article">
   
-  <meta property="article:published_time" content="2021-09-19T19:02:57&#43;08:00">
+  <meta property="article:published_time" content="2021-09-21T20:40:40&#43;08:00">
   
   
-  <meta property="article:modified_time" content="2021-09-19T19:02:57&#43;08:00">
+  <meta property="article:modified_time" content="2021-09-21T20:40:40&#43;08:00">
   
   <meta name="keywords" content="HTML, hugo, CSS">
-  <meta name="description" content="How to easily create a blog using Hugo"><meta name="author" content="">
+  <meta name="description" content="Nmap: basic guide for pentesting"><meta name="author" content="">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
@@ -63,9 +63,9 @@
   <div class="hero-body">
     <header class="container has-text-centered">
       <h1 class="title post-title">
-        How to easily create a blog using Hugo
+        Nmap: basic guide for pentesting
       </h1>
-      <h2 class="subtitle"><time class="post-meta">2021/09/19</time></h2>
+      <h2 class="subtitle"><time class="post-meta">2021/09/21</time></h2>
       
     </header>
   </div>
@@ -77,58 +77,14 @@
       <div class="column is-1 is-hidden-mobile"></div>
       <div class="column is-8">
       
-        <article class="content" id="post-content"><h3 id="what-is-hugo">What is Hugo?</h3>
-<p>Hugo is an open-source framework to simplify the process of creating static websites. There are a lot of different templates we can use online, which are usually very simple but beautiful. Some of them are even pretty original <a href="https://github.com/panr/hugo-theme-terminal">such as this one inspired in Mr. Robot</a>.</p>
-<p>Now that we had a brief introduction of what Hugo is, let us make the theory into practice.</p>
-<h3 id="installation">Installation</h3>
-<h4 id="windows">Windows</h4>
-<p>We can install Hugo on Windows with Chocolatey:</p>
-<pre><code>choco install hugo
-</code></pre>
-<p>Or with scoop:</p>
-<pre><code>scoop install hugo
-</code></pre>
-<h4 id="linux-and-macos">Linux and MacOS</h4>
-<p>We can use Homebrew for the installation:</p>
-<pre><code>brew install hugo
-</code></pre>
-<p>Additionally, if you are using MacPorts on macOS, you can install with:</p>
-<pre><code>port install hugo
-</code></pre>
-<h3 id="getting-started">Getting started</h3>
-<ol>
-<li>
-<p>Create your site typing:</p>
-<pre><code> hugo new site myblog
-</code></pre>
-</li>
-<li>
-<p>Download a templates</p>
-<pre><code> git submodule add https://github.com/wlh320/hugo-theme-hulga.git themes/hulga
-</code></pre>
-</li>
-<li>
-<p>Create content by typing</p>
-<pre><code> hugo new posts/mypost.md
-</code></pre>
-</li>
-<li>
-<p>Write content in posts/mypost.md</p>
-</li>
-<li>
-<p>Hugo will build the content for you with the command</p>
-<pre><code> hugo
-</code></pre>
-</li>
-<li>
-<p>You can serve the website on localhost with the following command:</p>
-<pre><code> hugo -D serve
-</code></pre>
-</li>
-<li>
-<p>If you go to localhost:1313 you can check your new blog</p>
-</li>
-</ol>
+        <article class="content" id="post-content"><p>Nmap is a well-known tool for pentesters and hackers. It basically allows us to scan the ports of a network, but it is much more powerful than that, as we will see in this post.</p>
+<h2 id="scanning-ports-with-nmap">Scanning ports with Nmap</h2>
+<p>We can use <code>nmap IP  -p PORT</code> to perform an scan of the 1000 most important ports of the specified address. This will show us which ports are open, closed, or protected by some firewall. Moreover, it will show us which services are running.</p>
+<h2 id="bypassing-detection">Bypassing detection</h2>
+<p>Nmap has different ways of bypassing detection. In this post, we will present two ways:</p>
+<p>We can use the T parameter, specifying the delay</p>
+<p>Or we can use -Pn</p>
+<h2 id="vulnerability-scanning">Vulnerability scanning</h2>
 </article>
       </div>
       
