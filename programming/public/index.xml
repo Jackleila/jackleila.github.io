@@ -6,7 +6,24 @@
     <description>Recent content on Its a Devs world</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 21 Sep 2021 20:40:40 +0200</lastBuildDate><atom:link href="https://jackleila.github.io/programming/public/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 22 Sep 2021 21:37:34 +0200</lastBuildDate><atom:link href="https://jackleila.github.io/programming/public/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Useful docker commands to always have nearby</title>
+      <link>https://jackleila.github.io/programming/public/posts/third-post/</link>
+      <pubDate>Wed, 22 Sep 2021 21:37:34 +0200</pubDate>
+      
+      <guid>https://jackleila.github.io/programming/public/posts/third-post/</guid>
+      <description>Just a list of docker commands I use pretty often.
+General commands Show running containers:
+docker ps  Show all containers:
+docker ps -a  Information about a docker:
+docker inspect CONT  Open bash in docker:
+docker exec -it /bin/bash CONT  Delete container:
+docker rm CONT  List images:
+docker images  Remove image:
+docker image rm IMG  Docker compose docker-compose up docker-compose down  Option -d so it won&amp;rsquo;t show logs on screen</description>
+    </item>
+    
     <item>
       <title>Nmap: basic guide for pentesting</title>
       <link>https://jackleila.github.io/programming/public/posts/second-post/</link>
