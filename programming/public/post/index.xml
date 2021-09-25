@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on It&#39;s a Dev&#39;s world</title>
-    <link>https://jackleila.github.io/post/</link>
+    <link>https://jackleila.github.io/programming/public/post/</link>
     <description>Recent content in Posts on It&#39;s a Dev&#39;s world</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 22 Sep 2021 21:54:58 +0200</lastBuildDate><atom:link href="https://jackleila.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 22 Sep 2021 21:54:58 +0200</lastBuildDate><atom:link href="https://jackleila.github.io/programming/public/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Basic Burp Suite (I)</title>
-      <link>https://jackleila.github.io/post/fourth-post/</link>
+      <link>https://jackleila.github.io/programming/public/post/fourth-post/</link>
       <pubDate>Wed, 22 Sep 2021 21:54:58 +0200</pubDate>
       
-      <guid>https://jackleila.github.io/post/fourth-post/</guid>
+      <guid>https://jackleila.github.io/programming/public/post/fourth-post/</guid>
       <description>Burp Suite is a tool developed by PortSwigger in Java, which allows us to find and explote web vulnerabilities. It has an Enterprise Edition, as well as a free Community Edition, which is more limited. We will be using the free version in this tutorial.</description>
     </item>
     
     <item>
       <title>Useful docker commands to always have nearby</title>
-      <link>https://jackleila.github.io/post/third-post/</link>
+      <link>https://jackleila.github.io/programming/public/post/third-post/</link>
       <pubDate>Wed, 22 Sep 2021 21:37:34 +0200</pubDate>
       
-      <guid>https://jackleila.github.io/post/third-post/</guid>
+      <guid>https://jackleila.github.io/programming/public/post/third-post/</guid>
       <description>Just a list of docker commands I use pretty often.
 General commands Show running containers:
 docker ps  Show all containers:
@@ -36,20 +36,20 @@ docker build --target production-stage -t NAME_IMG DOCKERFILE_DIR  Run image</de
     
     <item>
       <title>Nmap: basic guide for pentesting</title>
-      <link>https://jackleila.github.io/post/second-post/</link>
+      <link>https://jackleila.github.io/programming/public/post/second-post/</link>
       <pubDate>Tue, 21 Sep 2021 20:40:40 +0200</pubDate>
       
-      <guid>https://jackleila.github.io/post/second-post/</guid>
+      <guid>https://jackleila.github.io/programming/public/post/second-post/</guid>
       <description>Nmap is a well-known tool for pentesters and hackers. It basically allows us to scan the ports of a network, but it is much more powerful than that, as we will see in this post. We will start by reviewing some basic commands of nmap.
 Scanning ports We can use the following command to perform an scan of the specified port of the address given. This will show us which ports are open, closed, or protected by some firewall.</description>
     </item>
     
     <item>
       <title>How to easily create a blog using Hugo</title>
-      <link>https://jackleila.github.io/post/first-post/</link>
+      <link>https://jackleila.github.io/programming/public/post/first-post/</link>
       <pubDate>Sun, 19 Sep 2021 19:02:57 +0200</pubDate>
       
-      <guid>https://jackleila.github.io/post/first-post/</guid>
+      <guid>https://jackleila.github.io/programming/public/post/first-post/</guid>
       <description>What is Hugo? Hugo is an open-source framework to simplify the process of creating static websites. There are a lot of different templates we can use online, which are usually very simple but beautiful. Some of them are even pretty original such as this one inspired in Mr. Robot.
 Now that we had a brief introduction of what Hugo is, let us make the theory into practice.
 Installation Windows We can install Hugo on Windows with Chocolatey:</description>
