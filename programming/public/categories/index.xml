@@ -5,25 +5,6 @@
     <link>https://jackleila.github.io/programming/public/categories/</link>
     <description>Recent content in Categories on It&#39;s a Dev&#39;s world</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 19 Sep 2021 19:02:57 +0200</lastBuildDate><atom:link href="https://jackleila.github.io/programming/public/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>development</title>
-      <link>https://jackleila.github.io/programming/public/categories/development/</link>
-      <pubDate>Sun, 19 Sep 2021 19:02:57 +0200</pubDate>
-      
-      <guid>https://jackleila.github.io/programming/public/categories/development/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>publishing</title>
-      <link>https://jackleila.github.io/programming/public/categories/publishing/</link>
-      <pubDate>Sun, 19 Sep 2021 19:02:57 +0200</pubDate>
-      
-      <guid>https://jackleila.github.io/programming/public/categories/publishing/</guid>
-      <description></description>
-    </item>
-    
+    <language>en-us</language><atom:link href="https://jackleila.github.io/programming/public/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

@@ -1,8 +1,8 @@
 ---
 title: "How to easily create a blog using Hugo"
 date: 2021-09-19T19:02:57+02:00
-categories: [development, publishing]
-tags: [hugo,content,static site generator]
+categories: [web]
+tags: [hugo]
 featured: true
 
 draft: false

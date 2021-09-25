@@ -1,6 +1,8 @@
 ---
 title: "Useful docker commands to always have nearby"
 date: 2021-09-22T21:37:34+02:00
+categories: [programming]
+tags: [docker]
 draft: false
 ---
 

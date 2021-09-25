@@ -1,6 +1,8 @@
 ---
 title: "Nmap: basic guide for pentesting"
 date: 2021-09-21T20:40:40+02:00
+categories: [security]
+tags: [nmap]
 draft: false
 ---
 
