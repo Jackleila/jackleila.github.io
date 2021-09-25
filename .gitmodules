@@ -4,3 +4,6 @@
 [submodule "programming/themes/hulga"]
 	path = programming/themes/hulga
 	url = https://github.com/wlh320/hugo-theme-hulga.git
+[submodule "devsworld/themes/jeffprod"]
+	path = devsworld/themes/jeffprod
+	url = https://github.com/Tazeg/hugo-blog-jeffprod.git

@@ -1,5 +1,6 @@
 baseURL = 'https://jackleila.github.io/programming/public/'
 languageCode = 'en-us'
+paginate = 10
 title = 'Its a Devs world'
 theme = "hulga"
 
@@ -7,14 +8,14 @@ theme = "hulga"
 [params]
   # show in HTML meta tag
   author = "Sara El Kortbi"
-  keywords = "HTML, hugo, CSS"
+  keywords = "HTML, hugo, CSS, security, hacking, programming"
   description = "Programming, security and much more"
 
   # change bulma's primary color
   primaryColor = " #abebc6"
 
   # subtitle on homepage
-  subtitle = "This is a subtitle"
+  subtitle = "Programming, security and much more"
 
   # copyright text on footer
   copyright = "Copyright © 2021 wlh. All rights reserved."
@@ -46,22 +47,22 @@ theme = "hulga"
 # to enable different hightlight themes in light/dark mode 
 [markup]
   [markup.highlight]
-    noClasses = false
+    noClasses = true
 
 [menu]
   [[menu.main]]
     identifier = "index"
-    name = "asd"
+    name = "Index"
     url = "/"
     weight = 1
   [[menu.main]]
     identifier = "archives"
-    name = "asd"
-    url = "/archives/"
+    name = "Posts"
+    url = "/posts/"
     weight = 2
   [[menu.main]]
     identifier = "about"
-    name = "asd"
+    name = "About"
     url = "/about/"
     weight = 3
 
