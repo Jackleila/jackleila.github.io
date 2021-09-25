@@ -1,7 +1,7 @@
-baseURL = 'https://jackleila.github.io/programming/public/'
+baseURL = 'https://jackleila.github.io/'
 languageCode = 'en-us'
 paginate = 10
-title = 'Its a Devs world'
+title = "It's a Dev's world"
 theme = "hulga"
 
 
@@ -58,7 +58,7 @@ theme = "hulga"
   [[menu.main]]
     identifier = "archives"
     name = "Posts"
-    url = "/posts/"
+    url = "/post/"
     weight = 2
   [[menu.main]]
     identifier = "about"

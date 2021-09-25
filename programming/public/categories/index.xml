@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Its a Devs world</title>
-    <link>https://jackleila.github.io/programming/public/categories/</link>
-    <description>Recent content in Categories on Its a Devs world</description>
+    <title>Categories on It&#39;s a Dev&#39;s world</title>
+    <link>https://jackleila.github.io/categories/</link>
+    <description>Recent content in Categories on It&#39;s a Dev&#39;s world</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 19 Sep 2021 19:02:57 +0200</lastBuildDate><atom:link href="https://jackleila.github.io/programming/public/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 19 Sep 2021 19:02:57 +0200</lastBuildDate><atom:link href="https://jackleila.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>development</title>
-      <link>https://jackleila.github.io/programming/public/categories/development/</link>
+      <link>https://jackleila.github.io/categories/development/</link>
       <pubDate>Sun, 19 Sep 2021 19:02:57 +0200</pubDate>
       
-      <guid>https://jackleila.github.io/programming/public/categories/development/</guid>
+      <guid>https://jackleila.github.io/categories/development/</guid>
       <description></description>
     </item>
     
     <item>
       <title>publishing</title>
-      <link>https://jackleila.github.io/programming/public/categories/publishing/</link>
+      <link>https://jackleila.github.io/categories/publishing/</link>
       <pubDate>Sun, 19 Sep 2021 19:02:57 +0200</pubDate>
       
-      <guid>https://jackleila.github.io/programming/public/categories/publishing/</guid>
+      <guid>https://jackleila.github.io/categories/publishing/</guid>
       <description></description>
     </item>
     
