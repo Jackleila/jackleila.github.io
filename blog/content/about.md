@@ -2,7 +2,7 @@
 title: About
 date: 2020-09-22T10:37:58+05:30
 lastmod: 
-author: Rainer Chiang
+author: Sara El Kortbi
 
 description: 
 categories: []
@@ -15,10 +15,6 @@ disableToC: false
 disableAutoCollapse: true
 ---
 
-## About Yourself
+## Kalimat
 
-This is some static page where you can write about yourself.
-
-## hugo theme [simpleness](https://github.com/RainerChiang/simpleness)
-
-A hugo theme ported form [contrast-hugo](https://github.com/niklasbuschmann/contrast-hugo)
+This is a blog where I will be translating some beautiful Arabic poems and songs to Spanish for the world to enjoy. 
