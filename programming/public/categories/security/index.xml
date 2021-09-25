@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>security on It&#39;s a Dev&#39;s world</title>
+    <link>https://jackleila.github.io/programming/public/categories/security/</link>
+    <description>Recent content in security on It&#39;s a Dev&#39;s world</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 21 Sep 2021 20:40:40 +0200</lastBuildDate><atom:link href="https://jackleila.github.io/programming/public/categories/security/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nmap: basic guide for pentesting</title>
+      <link>https://jackleila.github.io/programming/public/post/second-post/</link>
+      <pubDate>Tue, 21 Sep 2021 20:40:40 +0200</pubDate>
+      
+      <guid>https://jackleila.github.io/programming/public/post/second-post/</guid>
+      <description>Nmap is a well-known tool for pentesters and hackers. It basically allows us to scan the ports of a network, but it is much more powerful than that, as we will see in this post. We will start by reviewing some basic commands of nmap.
+Scanning ports We can use the following command to perform an scan of the specified port of the address given. This will show us which ports are open, closed, or protected by some firewall.</description>
+    </item>
+    
+  </channel>
+</rss>

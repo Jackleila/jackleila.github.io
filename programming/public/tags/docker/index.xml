@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>docker on It&#39;s a Dev&#39;s world</title>
+    <link>https://jackleila.github.io/programming/public/tags/docker/</link>
+    <description>Recent content in docker on It&#39;s a Dev&#39;s world</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 22 Sep 2021 21:37:34 +0200</lastBuildDate><atom:link href="https://jackleila.github.io/programming/public/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Useful docker commands to always have nearby</title>
+      <link>https://jackleila.github.io/programming/public/post/third-post/</link>
+      <pubDate>Wed, 22 Sep 2021 21:37:34 +0200</pubDate>
+      
+      <guid>https://jackleila.github.io/programming/public/post/third-post/</guid>
+      <description>Just a list of docker commands I use pretty often.
+General commands Show running containers:
+docker ps  Show all containers:
+docker ps -a  Information about a docker:
+docker inspect CONT  Open bash in docker:
+docker exec -it /bin/bash CONT  Delete container:
+docker rm CONT  List images:
+docker images  Remove image:
+docker image rm IMG  Build image:
+docker build --target production-stage -t NAME_IMG DOCKERFILE_DIR  Run image</description>
+    </item>
+    
+  </channel>
+</rss>
