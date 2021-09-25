@@ -6,6 +6,7 @@ theme = "hulga"
 
 
 [params]
+	relativeURLs = true
   # show in HTML meta tag
   author = "Sara El Kortbi"
   keywords = "HTML, hugo, CSS, security, hacking, programming"
