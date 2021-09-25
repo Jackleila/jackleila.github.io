@@ -6,7 +6,16 @@
     <description>Recent content in Posts on Its a Devs world</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 22 Sep 2021 21:37:34 +0200</lastBuildDate><atom:link href="https://jackleila.github.io/programming/public/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 22 Sep 2021 21:54:58 +0200</lastBuildDate><atom:link href="https://jackleila.github.io/programming/public/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Basic Burp Suite (I)</title>
+      <link>https://jackleila.github.io/programming/public/posts/fourth-post/</link>
+      <pubDate>Wed, 22 Sep 2021 21:54:58 +0200</pubDate>
+      
+      <guid>https://jackleila.github.io/programming/public/posts/fourth-post/</guid>
+      <description>Burp Suite is a tool developed by PortSwigger in Java, which allows us to find and explote web vulnerabilities. It has an Enterprise Edition, as well as a free Community Edition, which is more limited. We will be using the free version in this tutorial.</description>
+    </item>
+    
     <item>
       <title>Useful docker commands to always have nearby</title>
       <link>https://jackleila.github.io/programming/public/posts/third-post/</link>
@@ -21,7 +30,8 @@ docker inspect CONT  Open bash in docker:
 docker exec -it /bin/bash CONT  Delete container:
 docker rm CONT  List images:
 docker images  Remove image:
-docker image rm IMG  Docker compose docker-compose up docker-compose down  Option -d so it won&amp;rsquo;t show logs on screen</description>
+docker image rm IMG  Build image:
+docker build --target production-stage -t NAME_IMG DOCKERFILE_DIR  Run image</description>
     </item>
     
     <item>
@@ -30,8 +40,8 @@ docker image rm IMG  Docker compose docker-compose up docker-compose down  Optio
       <pubDate>Tue, 21 Sep 2021 20:40:40 +0200</pubDate>
       
       <guid>https://jackleila.github.io/programming/public/posts/second-post/</guid>
-      <description>Nmap is a well-known tool for pentesters and hackers. It basically allows us to scan the ports of a network, but it is much more powerful than that, as we will see in this post.
-Scanning ports with Nmap We can use nmap IP -p PORT to perform an scan of the 1000 most important ports of the specified address. This will show us which ports are open, closed, or protected by some firewall.</description>
+      <description>Nmap is a well-known tool for pentesters and hackers. It basically allows us to scan the ports of a network, but it is much more powerful than that, as we will see in this post. We will start by reviewing some basic commands of nmap.
+Scanning ports We can use the following command to perform an scan of the specified port of the address given. This will show us which ports are open, closed, or protected by some firewall.</description>
     </item>
     
     <item>

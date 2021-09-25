@@ -37,6 +37,13 @@ Remove image:
 
 	docker image rm IMG
 	
+Build image:
+
+	docker build --target production-stage -t NAME_IMG DOCKERFILE_DIR
+	
+Run image 
+
+	docker run -p 8080 --name CONT_NAME IMG_NAME
 
 ### Docker compose
 

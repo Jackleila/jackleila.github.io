@@ -77,14 +77,45 @@
       <div class="column is-1 is-hidden-mobile"></div>
       <div class="column is-8">
       
-        <article class="content" id="post-content"><p>Nmap is a well-known tool for pentesters and hackers. It basically allows us to scan the ports of a network, but it is much more powerful than that, as we will see in this post.</p>
-<h2 id="scanning-ports-with-nmap">Scanning ports with Nmap</h2>
-<p>We can use <code>nmap IP  -p PORT</code> to perform an scan of the 1000 most important ports of the specified address. This will show us which ports are open, closed, or protected by some firewall. Moreover, it will show us which services are running.</p>
-<h2 id="bypassing-detection">Bypassing detection</h2>
-<p>Nmap has different ways of bypassing detection. In this post, we will present two ways:</p>
-<p>We can use the T parameter, specifying the delay</p>
-<p>Or we can use -Pn</p>
+        <article class="content" id="post-content"><p>Nmap is a well-known tool for pentesters and hackers. It basically allows us to scan the ports of a network, but it is much more powerful than that, as we will see in this post. We will start by reviewing some basic commands of nmap.</p>
+<h2 id="scanning-ports">Scanning ports</h2>
+<p>We can use the following command to perform an scan of the specified port of the address given. This will show us which ports are open, closed, or protected by some firewall. Moreover, it will show us which services are running. If we don&rsquo;t specify a port, it will scan the 1000 most common ports.</p>
+<pre><code>nmap IP -p PORT
+</code></pre>
+<p>We can obtain more information about the versions of the services and applications running in each port using the option <code>-sV</code>.</p>
+<pre><code>nmap -sV IP -p PORT
+</code></pre>
+<p>The command <code>-A</code> allows us to detect the versions but also the operating system</p>
+<pre><code>nmap -A IP -p PORT
+</code></pre>
+<p>We can also use the <code>-O</code> option to detect the operating system</p>
+<pre><code>nmap -O IP -p PORT
+</code></pre>
+<h2 id="timming">Timming</h2>
+<p>Nmap has a parameter -T, which specifies the different delays. There is more information <a href="https://nmap.org/book/performance-timing-templates.html">available here</a>, but we will cover the basics:</p>
+<p>-T0 (paranoid): Used to bypass IDS. <br>
+-T1 (sneaky): Also used to bypass IDS, but not so slow as T0.<br>
+-T2 (polite): Slow scan.
+-T3 (normal): Normal mode.
+-T4 (aggressive) : Faster than normal. Only recommended on a fast network.
+-T5 (insane) : Fastest scan. Assumes you are in a really fast and reliable network.</p>
+<h2 id="idsfirewall-evasion">IDS/Firewall evasion</h2>
+<p>Some other options to bypass IDS and Firewalls are the options <code>-f</code> and <code>-mtu</code>. The first one will send small fragmented IP packages, which will make it hard for the systems to detect the scan. This option will divide the packages in 8 bytes fragments. The option <code>-mtu</code> allows you to specify your own size. <strong>Note</strong>: you can only use one of those options.</p>
 <h2 id="vulnerability-scanning">Vulnerability scanning</h2>
+<p>#Using scripts</p>
+<p>Nmap also has a variety of scripts that we can use. If we want to look for scripts for a particular server, we can do it by typing:</p>
+<pre><code>nmap --script-help &quot;http-*&quot;
+</code></pre>
+<p>And it will print us all the scripts matching the service/application and how to use them.</p>
+<p>It also accepts the * wildcard and the boolean operators <code>and</code>, <code>or</code> and <code>not</code>. We can execute several scripts separated by a comma.</p>
+<pre><code>nmap ---script  http-enum IP
+</code></pre>
+<p>If the script has arguments, we can specify them with the option <code>--script-args &lt;n1&gt;=&lt;v1&gt;</code>.</p>
+<h1 id="output">Output</h1>
+<p>The option <code>-oN</code> allows us to redirect the output to a file. The option <code>-oX</code> redirects the output to a specified file as an XML.</p>
+<pre><code>nmap IP -oN output.txt
+</code></pre>
+<p>In the next post about nmap I will be covering some advanced nmap options.</p>
 </article>
       </div>
       
