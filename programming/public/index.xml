@@ -6,14 +6,14 @@
     <description>Recent content on It&#39;s a Dev&#39;s world</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 22 Sep 2021 21:54:58 +0200</lastBuildDate><atom:link href="https://jackleila.github.io/programming/public/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 22 Sep 2021 21:37:34 +0200</lastBuildDate><atom:link href="https://jackleila.github.io/programming/public/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Basic Burp Suite (I)</title>
-      <link>https://jackleila.github.io/programming/public/post/fourth-post/</link>
-      <pubDate>Wed, 22 Sep 2021 21:54:58 +0200</pubDate>
+      <title>About</title>
+      <link>https://jackleila.github.io/programming/public/about/</link>
+      <pubDate>Sat, 25 Sep 2021 17:11:08 +0200</pubDate>
       
-      <guid>https://jackleila.github.io/programming/public/post/fourth-post/</guid>
-      <description>Burp Suite is a tool developed by PortSwigger in Java, which allows us to find and explote web vulnerabilities. It has an Enterprise Edition, as well as a free Community Edition, which is more limited. We will be using the free version in this tutorial.</description>
+      <guid>https://jackleila.github.io/programming/public/about/</guid>
+      <description>This blog is mainly about programming and cybersecurity.</description>
     </item>
     
     <item>
