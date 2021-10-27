@@ -4,17 +4,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="msapplication-TileImage" content="/ms-icon-144x144.png"><meta name="msapplication-TileColor" content=" #abebc6">
-  <meta name="theme-color" content=" #abebc6"><title>Nmap: basic guide for pentesting | It&#39;s a Dev&#39;s world</title>
-  <meta property="og:title" content="Nmap: basic guide for pentesting - It&#39;s a Dev&#39;s world">
+  <meta name="theme-color" content=" #abebc6"><title>Getting Started With Gtest | It&#39;s a Dev&#39;s world</title>
+  <meta property="og:title" content="Getting Started With Gtest - It&#39;s a Dev&#39;s world">
   <meta property="og:type" content="article">
   
-  <meta property="article:published_time" content="2021-09-21T20:40:40&#43;08:00">
+  <meta property="article:published_time" content="2021-10-27T09:46:58&#43;08:00">
   
   
-  <meta property="article:modified_time" content="2021-09-21T20:40:40&#43;08:00">
+  <meta property="article:modified_time" content="2021-10-27T09:46:58&#43;08:00">
   
   <meta name="keywords" content="HTML, hugo, CSS, security, hacking, programming">
-  <meta name="description" content="Nmap: basic guide for pentesting"><meta name="author" content="">
+  <meta name="description" content="Getting Started With Gtest"><meta name="author" content="">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
@@ -61,12 +61,12 @@
   <div class="hero-body">
     <header class="container has-text-centered">
       <h1 class="title post-title">
-        Nmap: basic guide for pentesting
+        Getting Started With Gtest
       </h1>
-      <h2 class="subtitle"><time class="post-meta">2021/09/21</time> ・
+      <h2 class="subtitle"><time class="post-meta">2021/10/27</time> ・
           
             <span class="post-tag post-meta">
-              <a href="https://jackleila.github.io/programming/public//programming/public/categories/security">security</a>
+              <a href="https://jackleila.github.io/programming/public//programming/public/categories/testing">testing</a>
             </span>
           
         </h2>
@@ -74,7 +74,7 @@
       <div class="tagbox post-meta">
         
         <span class="post-tag">
-          <a href="https://jackleila.github.io/programming/public//programming/public/tags/nmap">#nmap</a>
+          <a href="https://jackleila.github.io/programming/public//programming/public/tags/c">#c</a>
         </span>
         
       </div>
@@ -89,45 +89,62 @@
       <div class="column is-1 is-hidden-mobile"></div>
       <div class="column is-8">
       
-        <article class="content" id="post-content"><p>Nmap is a well-known tool for pentesters and hackers. It basically allows us to scan the ports of a network, but it is much more powerful than that, as we will see in this post. We will start by reviewing some basic commands of nmap.</p>
-<h2 id="scanning-ports">Scanning ports</h2>
-<p>We can use the following command to perform an scan of the specified port of the address given. This will show us which ports are open, closed, or protected by some firewall. Moreover, it will show us which services are running. If we don&rsquo;t specify a port, it will scan the 1000 most common ports.</p>
-<pre><code>nmap IP -p PORT
-</code></pre>
-<p>We can obtain more information about the versions of the services and applications running in each port using the option <code>-sV</code>.</p>
-<pre><code>nmap -sV IP -p PORT
-</code></pre>
-<p>The command <code>-A</code> allows us to detect the versions but also the operating system</p>
-<pre><code>nmap -A IP -p PORT
-</code></pre>
-<p>We can also use the <code>-O</code> option to detect the operating system</p>
-<pre><code>nmap -O IP -p PORT
-</code></pre>
-<h2 id="timming">Timming</h2>
-<p>Nmap has a parameter -T, which specifies the different delays. There is more information <a href="https://nmap.org/book/performance-timing-templates.html">available here</a>, but we will cover the basics:</p>
-<p>-T0 (paranoid): Used to bypass IDS. <br>
--T1 (sneaky): Also used to bypass IDS, but not so slow as T0.<br>
--T2 (polite): Slow scan.<br>
--T3 (normal): Normal mode.<br>
--T4 (aggressive) : Faster than normal. Only recommended on a fast network.<br>
--T5 (insane) : Fastest scan. Assumes you are in a really fast and reliable network.</p>
-<h2 id="idsfirewall-evasion">IDS/Firewall evasion</h2>
-<p>Some other options to bypass IDS and Firewalls are the options <code>-f</code> and <code>-mtu</code>. The first one will send small fragmented IP packages, which will make it hard for the systems to detect the scan. This option will divide the packages in 8 bytes fragments. The option <code>-mtu</code> allows you to specify your own size.</p>
-<p><strong>Note</strong>: you can only use one of those options.</p>
-<h2 id="vulnerability-scanning">Vulnerability scanning</h2>
-<p>Nmap also has a variety of scripts that we can use for vulnerability scanning and explotation. If we want to look for scripts for a particular server, we can do it by typing:</p>
-<pre><code>nmap --script-help &quot;http-*&quot;
-</code></pre>
-<p>And it will print us all the scripts matching the service/application and how to use them.</p>
-<p>It also accepts the * wildcard and the boolean operators <code>and</code>, <code>or</code> and <code>not</code>. We can execute several scripts separated by a comma.</p>
-<pre><code>nmap ---script  http-enum IP
-</code></pre>
-<p>If the script has arguments, we can specify them with the option <code>--script-args &lt;n1&gt;=&lt;v1&gt;</code>.</p>
-<h1 id="output">Output</h1>
-<p>The option <code>-oN</code> allows us to redirect the output to a file. The option <code>-oX</code> redirects the output to a specified file as an XML.</p>
-<pre><code>nmap IP -oN output.txt
-</code></pre>
-<p>In the next post about nmap I will be covering some advanced nmap options.</p>
+        <article class="content" id="post-content"><p>In this post we will have a brief introduction to the Gtest library, with which we could do testing in C/C++.</p>
+<h1 id="installing-and-compiling-the-gtest-library">Installing and compiling the Gtest library</h1>
+<ul>
+<li>First, we need to install the library:</li>
+</ul>
+<p><code>sudo apt-get install libgtest-dev</code></p>
+<ul>
+<li>We compile using cmake:</li>
+</ul>
+<p><code>cd /usr/src/gtest</code></p>
+<p><code>sudo cmake CMakeLists.txt</code></p>
+<p><code>sudo make</code></p>
+<ul>
+<li>We copy libgtest.a and libgtest_main.a to /usr/lib:</li>
+</ul>
+<p><code>sudo cp *.a /usr/lib</code></p>
+<h1 id="getting-started">Getting started</h1>
+<p>We will start with a very simple function:</p>
+<pre tabindex="0"><code>unsigned int factorial(int num) {
+ if (n == 0){
+        return 1;
+    }else{
+        return(n * factorial(n-1));
+    }
+}
+</code></pre><p>The tests.cpp code:</p>
+<pre tabindex="0"><code>#include &quot;factorial.cpp&quot;
+#include &lt;gtest/gtest.h&gt;
+
+TEST(factorialTest, factorial_three) { 
+    ASSERT_EQ(6, factorial(3));
+}
+
+</code></pre><p>And the CMakeLists.txt file:</p>
+<pre tabindex="0"><code>cmake_minimum_required(VERSION 2.6)
+
+# Set the project here.
+project(Laboratory2)
+
+# Locate GTest
+find_package(GTest REQUIRED)
+include_directories(${GTEST_INCLUDE_DIRS})
+ 
+# Link runTests with what we want to test and the GTest and pthread library
+add_executable(runTests tests.cpp)
+target_link_libraries(runTests ${GTEST_LIBRARIES} pthread)
+</code></pre><ul>
+<li>Next, we can compile the code:</li>
+</ul>
+<p><code>cmake -S . -B build</code></p>
+<p><code>cmake --build build</code></p>
+<p><code>cd build &amp;&amp; ctest</code></p>
+<ul>
+<li>And finally we can run the tests:</li>
+</ul>
+<p><code>./runTests</code></p>
 </article>
       </div>
       

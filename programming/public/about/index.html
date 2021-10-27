@@ -4,13 +4,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="msapplication-TileImage" content="/ms-icon-144x144.png"><meta name="msapplication-TileColor" content=" #abebc6">
-  <meta name="theme-color" content=" #abebc6"><title>Abouts | Its a Devs world</title>
-  <meta property="og:title" content="Abouts - Its a Devs world">
+  <meta name="theme-color" content=" #abebc6"><title>About | It&#39;s a Dev&#39;s world</title>
+  <meta property="og:title" content="About - It&#39;s a Dev&#39;s world">
   <meta property="og:type" content="article">
   
+  <meta property="article:published_time" content="2021-09-25T17:11:08&#43;08:00">
+  
+  
+  <meta property="article:modified_time" content="2021-09-25T17:11:08&#43;08:00">
   
   <meta name="keywords" content="HTML, hugo, CSS, security, hacking, programming">
-  <meta name="description" content="Abouts"><meta name="author" content="">
+  <meta name="description" content="About"><meta name="author" content="">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
@@ -28,13 +32,13 @@
   <link rel="stylesheet" type="text/css" href="/programming/public/css/hulga-dark.min.css" media="(prefers-color-scheme: dark)">
   <link rel="manifest" href="/manifest.json">
 </head><body>
-  <div id="main"><section class="hero is-primary shadow-hero is-bold">
+  <div id="main"><section class="hero is-primary shadow-hero  is-bold ">
   <div class="hero-head">
     <nav class="navbar is-primary">
   <div class="container">
     <div class="navbar-brand">
-      <a class="navbar-item fake-text" href="https://jackleila.github.io/programming/public/">
-        Its a Devs world
+      <a class="navbar-item " href="https://jackleila.github.io/programming/public/">
+        It&#39;s a Dev&#39;s world
       </a>
       <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
         <span aria-hidden="true"></span>
@@ -47,8 +51,6 @@
         
         <a class="navbar-item" href="/programming/public/" title="index">Index</a>
         
-        <a class="navbar-item" href="/programming/public/posts/" title="archives">Posts</a>
-        
         <a class="navbar-item" href="/programming/public/about/" title="about">About</a>
         
       </div>
@@ -57,31 +59,35 @@
 </nav>
   </div>
   <div class="hero-body">
-    <div class="container has-text-centered">
-      <h1 class="title">
-        Its a Devs world
+    <header class="container has-text-centered">
+      <h1 class="title post-title">
+        About
       </h1>
+      <h2 class="subtitle"><time class="post-meta">2021/09/25</time></h2>
       
-      <h2 class="subtitle">
-        Programming, security and much more
-      </h2>
-      
-    </div>
+    </header>
   </div>
 </section>
-<section class="section post-box-section">
+<section class="section">
   <div class="container">
     <div class="columns">
-      <div class="column is-10 is-offset-1">
-        <div class="columns">
-          <div class="column is-8">
-            <div class="post-lists">
-              
-			  This is a blog mainly about programming and cybersecurity. 
-             
+      
+      <div class="column is-1 is-hidden-mobile"></div>
+      <div class="column is-8">
+      
+        <article class="content" id="post-content"><p>This blog is mainly about programming and cybersecurity.</p>
+</article>
+      </div>
+      
+      <div class="column is-hidden-mobile">
+        <div class="sidebar" id="toc">
           
+          <div class="post post-toc" id="post-toc">
+            
           </div>
         </div>
+      </div>
+      
       </div>
     </div>
   </div>
@@ -132,6 +138,94 @@ addBackToTop({
     }
   });
 </script>
+  <link id="hlcss" rel="stylesheet" type="text/css">
+
+<script>
+  function addCss(url) {
+    var link = document.getElementById('hlcss');
+    link.href = url;
+  }
+  
+  var darkcss = "https://jackleila.github.io/programming/public/css/monokai.css"
+  
+  var lightcss = "https://jackleila.github.io/programming/public/css/monokailight.css"
+  
+  if (window.matchMedia('(prefers-color-scheme)').media === 'not all') {
+    addCss(lightcss);
+  } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+    addCss(darkcss);
+  } else {
+    addCss(lightcss);
+  }
+  window.matchMedia("(prefers-color-scheme: dark)").addListener(
+    e => e.matches && addCss(darkcss)
+  );
+  window.matchMedia("(prefers-color-scheme: light)").addListener(
+    e => e.matches && addCss(lightcss)
+  );
+</script>
+<script src="https://cdn.jsdelivr.net/npm/anchor-js@4.3.0/anchor.min.js"></script><script>
+  anchors.options = {
+    placement: 'left',
+    
+    icon: '#'
+  };
+  anchors.add('.content h1, .content h2, .content h3');
+</script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha256-tn6hZ2YGDv0w1/DaFL4MiUoXuAVclrtFZs13ch3TB9M=" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js" integrity="sha256-1qhJwAgsSPVSSjlQVTewHS49eaoAbOz651dveUANVBI=" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js" integrity="sha256-oEuQVLwO5Ii6subChtLbrY5gx7NDRU+UJJ9jvvau+FI=" crossorigin="anonymous"></script><script>
+  document.addEventListener("DOMContentLoaded", function () {
+    renderMathInElement(document.body, {
+      
+      delimiters: [{
+        left: "$$",
+        right: "$$",
+        display: true
+      },
+      {
+        left: "\\[",
+        right: "\\]",
+        display: true
+      },
+      {
+        left: "$",
+        right: "$",
+        display: false
+      },
+      {
+        left: "\\(",
+        right: "\\)",
+        display: false
+      }
+      ]
+
+    });
+  });
+</script>
+
+  
+
+
+<link rel="stylesheet" type="text/css" href="https://jackleila.github.io/programming/public/css/toc.min.css"><script src="https://cdn.jsdelivr.net/npm/tocbot@4.12.0/dist/tocbot.min.js"></script>
+<script>
+    tocbot.init({
+        
+        tocSelector: '.post-toc',
+        
+        contentSelector: '#post-content',
+        
+        headingSelector: 'h1, h2, h3',
+        collapseDepth:  0 ,
+        scrollSmooth: true,
+        positionFixedSelector: '.post-toc',
+        
+        
+        fixedSidebarOffset: 273,
+    });
+</script>
+
+
 </body>
 
 </html>
