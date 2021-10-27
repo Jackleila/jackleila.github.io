@@ -41,7 +41,8 @@ unsigned int factorial(int num) {
         return(n * factorial(n-1));
     }
 }
-```{.c}
+```
+
 The tests.cpp code:
 ```
 #include "factorial.cpp"

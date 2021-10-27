@@ -114,42 +114,40 @@
         return(n * factorial(n-1));
     }
 }
-```{.c}
-The tests.cpp code:
-</code></pre><p>#include &ldquo;factorial.cpp&rdquo;
-#include &lt;gtest/gtest.h&gt;</p>
-<p>TEST(factorialTest, factorial_three) {
-ASSERT_EQ(6, factorial(3));
-}</p>
-<pre tabindex="0"><code>And the CMakeLists.txt file:
-</code></pre><p>cmake_minimum_required(VERSION 2.6)</p>
-<h1 id="set-the-project-here">Set the project here.</h1>
-<p>project(Laboratory2)</p>
-<h1 id="locate-gtest">Locate GTest</h1>
-<p>find_package(GTest REQUIRED)
-include_directories(${GTEST_INCLUDE_DIRS})</p>
-<h1 id="link-runtests-with-what-we-want-to-test-and-the-gtest-and-pthread-library">Link runTests with what we want to test and the GTest and pthread library</h1>
-<p>add_executable(runTests tests.cpp)
-target_link_libraries(runTests ${GTEST_LIBRARIES} pthread)</p>
-<pre tabindex="0"><code>
-- Next, we can compile the code:
+</code></pre><p>The tests.cpp code:</p>
+<pre tabindex="0"><code>#include &quot;factorial.cpp&quot;
+#include &lt;gtest/gtest.h&gt;
 
+TEST(factorialTest, factorial_three) { 
+    ASSERT_EQ(6, factorial(3));
+}
 
-`cmake -S . -B build`
+</code></pre><p>And the CMakeLists.txt file:</p>
+<pre tabindex="0"><code>cmake_minimum_required(VERSION 2.6)
 
-`cmake --build build`
+# Set the project here.
+project(Laboratory2)
 
-`cd build &amp;&amp; ctest`
-
-
-- And finally we can run the tests:
-
-`./runTests` 
-
-### References
-
-[GTest documentation](https://google.github.io/googletest/quickstart-cmake.html)
-</code></pre></article>
+# Locate GTest
+find_package(GTest REQUIRED)
+include_directories(${GTEST_INCLUDE_DIRS})
+ 
+# Link runTests with what we want to test and the GTest and pthread library
+add_executable(runTests tests.cpp)
+target_link_libraries(runTests ${GTEST_LIBRARIES} pthread)
+</code></pre><ul>
+<li>Next, we can compile the code:</li>
+</ul>
+<p><code>cmake -S . -B build</code></p>
+<p><code>cmake --build build</code></p>
+<p><code>cd build &amp;&amp; ctest</code></p>
+<ul>
+<li>And finally we can run the tests:</li>
+</ul>
+<p><code>./runTests</code></p>
+<h3 id="references">References</h3>
+<p><a href="https://google.github.io/googletest/quickstart-cmake.html">GTest documentation</a></p>
+</article>
       </div>
       
       <div class="column is-hidden-mobile">
