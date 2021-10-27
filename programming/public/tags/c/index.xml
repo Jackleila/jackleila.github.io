@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>c on It&#39;s a Dev&#39;s world</title>
+    <link>https://jackleila.github.io/programming/public/tags/c/</link>
+    <description>Recent content in c on It&#39;s a Dev&#39;s world</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 27 Oct 2021 09:46:58 +0200</lastBuildDate><atom:link href="https://jackleila.github.io/programming/public/tags/c/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Getting Started With Gtest</title>
+      <link>https://jackleila.github.io/programming/public/post/get-started-with-gtest/</link>
+      <pubDate>Wed, 27 Oct 2021 09:46:58 +0200</pubDate>
+      
+      <guid>https://jackleila.github.io/programming/public/post/get-started-with-gtest/</guid>
+      <description>In this post we will have a brief introduction to the Gtest library, with which we could do testing in C/C++.
+Installing and compiling the Gtest library  First, we need to install the library:  sudo apt-get install libgtest-dev
+ We compile using cmake:  cd /usr/src/gtest
+sudo cmake CMakeLists.txt
+sudo make
+ We copy libgtest.a and libgtest_main.a to /usr/lib:  sudo cp *.a /usr/lib
+Getting started We will start with a very simple function:</description>
+    </item>
+    
+  </channel>
+</rss>
