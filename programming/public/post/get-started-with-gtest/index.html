@@ -66,7 +66,7 @@
       <h2 class="subtitle"><time class="post-meta">2021/10/27</time> ・
           
             <span class="post-tag post-meta">
-              <a href="https://jackleila.github.io/programming/public/categories/testing">testing</a>
+              <a href="https://jackleila.github.io/programming/public//programming/public/categories/testing">testing</a>
             </span>
           
         </h2>
@@ -74,7 +74,7 @@
       <div class="tagbox post-meta">
         
         <span class="post-tag">
-          <a href="https://jackleila.github.io/programming/public/tags/c">#c</a>
+          <a href="https://jackleila.github.io/programming/public//programming/public/tags/c">#c</a>
         </span>
         
       </div>
@@ -89,8 +89,8 @@
       <div class="column is-1 is-hidden-mobile"></div>
       <div class="column is-8">
       
-        <article class="content" id="post-content"><p>In this post we will have a brief introduction to the Gtest library, with which we could do testing in C/C++.</p>
-<h1 id="installing-and-compiling-the-gtest-library">Installing and compiling the Gtest library</h1>
+        <article class="content" id="post-content"><p>In this post we will have a brief introduction to the Google test library that will allow us to tests our C/C++ programs.</p>
+<h2 id="installing-and-compiling-the-gtest-library">Installing and compiling the Gtest library</h2>
 <ul>
 <li>First, we need to install the library:</li>
 </ul>
@@ -105,7 +105,7 @@
 <li>We copy libgtest.a and libgtest_main.a to /usr/lib:</li>
 </ul>
 <p><code>sudo cp *.a /usr/lib</code></p>
-<h1 id="getting-started">Getting started</h1>
+<h2 id="getting-started">Getting started</h2>
 <p>We will start with a very simple function:</p>
 <pre tabindex="0"><code>unsigned int factorial(int num) {
  if (n == 0){
@@ -145,6 +145,8 @@ target_link_libraries(runTests ${GTEST_LIBRARIES} pthread)
 <li>And finally we can run the tests:</li>
 </ul>
 <p><code>./runTests</code></p>
+<h3 id="references">References</h3>
+<p><a href="https://google.github.io/googletest/quickstart-cmake.html">GTest documentation</a></p>
 </article>
       </div>
       

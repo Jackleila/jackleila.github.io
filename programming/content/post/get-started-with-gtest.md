@@ -8,10 +8,10 @@ featured: true
 draft: false
 ---
 
-In this post we will have a brief introduction to the Gtest library, with which we could do testing in C/C++.
+In this post we will have a brief introduction to the Google test library that will allow us to tests our C/C++ programs.
 
 
-# Installing and compiling the Gtest library
+## Installing and compiling the Gtest library
 
 - First, we need to install the library:
 
@@ -29,7 +29,7 @@ In this post we will have a brief introduction to the Gtest library, with which 
 
 `sudo cp *.a /usr/lib`
 
-# Getting started
+## Getting started
 
 We will start with a very simple function:
 
@@ -81,3 +81,7 @@ target_link_libraries(runTests ${GTEST_LIBRARIES} pthread)
 - And finally we can run the tests:
 
 `./runTests` 
+
+### References
+
+[GTest documentation](https://google.github.io/googletest/quickstart-cmake.html)
