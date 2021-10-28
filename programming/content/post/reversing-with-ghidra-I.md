@@ -43,7 +43,7 @@ We can start by looking at the Symbol Tree, and expanding the functions node. We
 
 If we take a look at the code, we notice that param_1 is the number of inputs (argv) and param_2 is our input (argc). 
 
-```c {linenos=table,hl_lines=[8,"15-17"],linenostart=199}
+{{< highlight c "linenos=table,hl_lines=8 15-17,linenostart=199" >}}
 	undefined8 main(int param_1,undefined8 *param_2){
 	  size_t sVar1;
 	  
@@ -67,7 +67,8 @@ If we take a look at the code, we notice that param_1 is the number of inputs (a
 	  }
 	  return 0;
 	}
-```
+{{< / highlight >}}
+
 
 We can see that the program is storing in sVar1 the lenght of our input and comparing it with 10. If it is 10, it will check that the 5th position is equal to @. So any 10 character string whose 5th position is @ will be a valid password:
 
