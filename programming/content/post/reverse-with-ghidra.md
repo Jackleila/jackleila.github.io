@@ -3,7 +3,7 @@ title: "Getting started With Ghidra"
 date: 2021-10-28T09:35:04+02:00
 categories: [cracking, reversing]
 tags: [ghidra]
-draft: false
+draft: true
 ---
 
 In this post we will take a brief look at Ghidra, a tool developed by the NSA for the reversing. Ghidra is a powerful program with a lot of options, and we will be exploring them in different tutorials by resolving different reversing challenges. In this tutorial we will look at the installation, project creation and overview by resolving a simple crackme.
