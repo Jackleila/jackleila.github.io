@@ -71,8 +71,5 @@ If we take a look at the code, we notice that param_1 is the number of inputs (a
 
 We can see that the program is storing in sVar1 the lenght of our input and comparing it with 10. If it is 10, it will check that the 5th position is equal to @. So any 10 character string whose 5th position is @ will be a valid password:
 
-Nice Job!!
-flag{1111@11111}
-
 
 In the following posts about Ghidra we will take a deeper look at Ghidra functions by solving more challenges. 
