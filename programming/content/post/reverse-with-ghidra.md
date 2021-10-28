@@ -1,5 +1,5 @@
 ---
-title: "Getting started With Ghidra"
+title: "Reverse With Ghidra"
 date: 2021-10-28T09:35:04+02:00
 categories: [cracking, reversing]
 tags: [ghidra]
