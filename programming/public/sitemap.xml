@@ -2,22 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jackleila.github.io/programming/public/categories/</loc>
+    <lastmod>2021-10-28T09:35:04+02:00</lastmod>
+  </url><url>
+    <loc>https://jackleila.github.io/programming/public/categories/cracking/</loc>
+    <lastmod>2021-10-28T09:35:04+02:00</lastmod>
+  </url><url>
+    <loc>https://jackleila.github.io/programming/public/tags/ghidra/</loc>
+    <lastmod>2021-10-28T09:35:04+02:00</lastmod>
+  </url><url>
+    <loc>https://jackleila.github.io/programming/public/</loc>
+    <lastmod>2021-10-28T09:35:04+02:00</lastmod>
+  </url><url>
+    <loc>https://jackleila.github.io/programming/public/post/</loc>
+    <lastmod>2021-10-28T09:35:04+02:00</lastmod>
+  </url><url>
+    <loc>https://jackleila.github.io/programming/public/post/reverse-with-ghidra/</loc>
+    <lastmod>2021-10-28T09:35:04+02:00</lastmod>
+  </url><url>
+    <loc>https://jackleila.github.io/programming/public/categories/reversing/</loc>
+    <lastmod>2021-10-28T09:35:04+02:00</lastmod>
+  </url><url>
+    <loc>https://jackleila.github.io/programming/public/tags/</loc>
+    <lastmod>2021-10-28T09:35:04+02:00</lastmod>
+  </url><url>
     <loc>https://jackleila.github.io/programming/public/tags/c/</loc>
     <lastmod>2021-10-27T09:46:58+02:00</lastmod>
   </url><url>
-    <loc>https://jackleila.github.io/programming/public/categories/</loc>
-    <lastmod>2021-10-27T09:46:58+02:00</lastmod>
-  </url><url>
     <loc>https://jackleila.github.io/programming/public/post/get-started-with-gtest/</loc>
-    <lastmod>2021-10-27T09:46:58+02:00</lastmod>
-  </url><url>
-    <loc>https://jackleila.github.io/programming/public/</loc>
-    <lastmod>2021-10-27T09:46:58+02:00</lastmod>
-  </url><url>
-    <loc>https://jackleila.github.io/programming/public/post/</loc>
-    <lastmod>2021-10-27T09:46:58+02:00</lastmod>
-  </url><url>
-    <loc>https://jackleila.github.io/programming/public/tags/</loc>
     <lastmod>2021-10-27T09:46:58+02:00</lastmod>
   </url><url>
     <loc>https://jackleila.github.io/programming/public/categories/testing/</loc>
