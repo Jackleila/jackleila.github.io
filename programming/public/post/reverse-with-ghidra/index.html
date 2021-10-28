@@ -111,9 +111,7 @@ with:</p>
 <p>We can start by looking at the Symbol Tree, and expanding the functions node. We can see that all the functions of the program are there. If we click in one, we can see the C code in the Decompiler window. If we click the <code>main</code> function, we will see this:</p>
 <p><img src="/images/main_function_ghidra.PNG" alt="Ghidra Function"></p>
 <p>If we take a look at the code, we notice that param_1 is the number of inputs (argv) and param_2 is our input (argc).</p>
-<pre tabindex="0"><code>undefined8 main(int param_1,undefined8 *param_2)
-
-{
+<pre tabindex="0"><code>undefined8 main(int param_1,undefined8 *param_2){
   size_t sVar1;
   
   if (param_1 == 2) {
@@ -136,7 +134,6 @@ with:</p>
   }
   return 0;
 }
-
 </code></pre><p>We can see that the program is storing in sVar1 the lenght of our input and comparing it with 10. If it is 10, it will check that the 5th position is equal to @. So any 10 character string whose 5th position is @ will be a valid password:</p>
 <pre tabindex="0"><code>Nice Job!!
 flag{1111@11111}

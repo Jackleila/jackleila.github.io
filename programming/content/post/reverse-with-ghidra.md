@@ -42,9 +42,7 @@ We can start by looking at the Symbol Tree, and expanding the functions node. We
 If we take a look at the code, we notice that param_1 is the number of inputs (argv) and param_2 is our input (argc). 
 
 ```
-undefined8 main(int param_1,undefined8 *param_2)
-
-{
+undefined8 main(int param_1,undefined8 *param_2){
   size_t sVar1;
   
   if (param_1 == 2) {
@@ -67,7 +65,6 @@ undefined8 main(int param_1,undefined8 *param_2)
   }
   return 0;
 }
-
 ```
 
 We can see that the program is storing in sVar1 the lenght of our input and comparing it with 10. If it is 10, it will check that the 5th position is equal to @. So any 10 character string whose 5th position is @ will be a valid password:
