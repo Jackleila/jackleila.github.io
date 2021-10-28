@@ -30,15 +30,15 @@ For this example we will get a binary from the website [Crackmes.one](https://cr
 
 We first create a new project under "File -> New Project". Then, once the project is created, we go to File-> Import File and select the crackme we downloaded. The first window we will se is something like this:
 
-![Ghidra Init](/images/menu_init_ghidra.PNG)
+![Ghidra Init](https://jackleila.github.io/programming/images/menu_init_ghidra.PNG)
 
 We can see that Ghidra detected the language automatically. Afterwards, it shows us a summary of the results. We can now start the CodeBrowser by double-clicking the file and it will asks us if we want to analyse the binary and will show us a lot of options. We can leave it by default for now, and click analyze. We will see the disassembly:
 
-![Ghidra Main](/images/ghidra_main.PNG)
+![Ghidra Main](https://jackleila.github.io/programming/images/ghidra_main.PNG)
 
 We can start by looking at the Symbol Tree, and expanding the functions node. We can see that all the functions of the program are there. If we click in one, we can see the C code in the Decompiler window. If we click the `main` function, we will see this:
 
- ![Ghidra Function](/images/main_function_ghidra.PNG)
+ ![Ghidra Function](https://jackleila.github.io/programming/images/main_function_ghidra.PNG)
 
 
 If we take a look at the code, we notice that param_1 is the number of inputs (argv) and param_2 is our input (argc). We can see that the program is storing in sVar1 the lenght of our input and comparing it with 10. If it is 10, it will check that the 5th position is equal to @. So any 10 character string whose 5th position is @ will be a valid password:

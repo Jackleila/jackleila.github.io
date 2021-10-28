@@ -105,11 +105,11 @@ with:</p>
 <h2 id="simple-reversing">Simple reversing</h2>
 <p>For this example we will get a binary from the website <a href="https://crackmes.one/crackme/5b8a37a433c5d45fc286ad83">Crackmes.one</a>. It is a very simple example that will allow us to introduce to Ghidra.</p>
 <p>We first create a new project under &ldquo;File -&gt; New Project&rdquo;. Then, once the project is created, we go to File-&gt; Import File and select the crackme we downloaded. The first window we will se is something like this:</p>
-<p><img src="/images/menu_init_ghidra.PNG" alt="Ghidra Init"></p>
+<p><img src="https://jackleila.github.io/programming/images/menu_init_ghidra.PNG" alt="Ghidra Init"></p>
 <p>We can see that Ghidra detected the language automatically. Afterwards, it shows us a summary of the results. We can now start the CodeBrowser by double-clicking the file and it will asks us if we want to analyse the binary and will show us a lot of options. We can leave it by default for now, and click analyze. We will see the disassembly:</p>
-<p><img src="/images/ghidra_main.PNG" alt="Ghidra Main"></p>
+<p><img src="https://jackleila.github.io/programming/images/ghidra_main.PNG" alt="Ghidra Main"></p>
 <p>We can start by looking at the Symbol Tree, and expanding the functions node. We can see that all the functions of the program are there. If we click in one, we can see the C code in the Decompiler window. If we click the <code>main</code> function, we will see this:</p>
-<p><img src="/images/main_function_ghidra.PNG" alt="Ghidra Function"></p>
+<p><img src="https://jackleila.github.io/programming/images/main_function_ghidra.PNG" alt="Ghidra Function"></p>
 <p>If we take a look at the code, we notice that param_1 is the number of inputs (argv) and param_2 is our input (argc). We can see that the program is storing in sVar1 the lenght of our input and comparing it with 10. If it is 10, it will check that the 5th position is equal to @. So any 10 character string whose 5th position is @ will be a valid password:</p>
 <pre tabindex="0"><code>Nice Job!!
 flag{1111@11111}
