@@ -111,8 +111,33 @@ with:</p>
 <p>We can start by looking at the Symbol Tree, and expanding the functions node. We can see that all the functions of the program are there. If we click in one, we can see the C code in the Decompiler window. If we click the <code>main</code> function, we will see this:</p>
 <p><img src="/images/main_function_ghidra.PNG" alt="Ghidra Function"></p>
 <p>If we take a look at the code, we notice that param_1 is the number of inputs (argv) and param_2 is our input (argc).</p>
-<p>We can see that the program is storing in sVar1 the lenght of our input and comparing it with 10. If it is 10, it will check that the 5th position is equal to @. So any 10 character string whose 5th position is @ will be a valid password:</p>
-<p>In the following posts about Ghidra we will take a deeper look at Ghidra functions by solving more challenges.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c" data-lang="c">undefined8 <span style="color:#a6e22e">main</span>(<span style="color:#66d9ef">int</span> param_1,undefined8 <span style="color:#f92672">*</span>param_2){
+  size_t sVar1;
+  
+  <span style="color:#66d9ef">if</span> (param_1 <span style="color:#f92672">==</span> <span style="color:#ae81ff">2</span>) {
+    sVar1 <span style="color:#f92672">=</span> strlen((<span style="color:#66d9ef">char</span> <span style="color:#f92672">*</span>)param_2[<span style="color:#ae81ff">1</span>]);
+    <span style="color:#66d9ef">if</span> (sVar1 <span style="color:#f92672">==</span> <span style="color:#ae81ff">10</span>) {
+      <span style="color:#66d9ef">if</span> (<span style="color:#f92672">*</span>(<span style="color:#66d9ef">char</span> <span style="color:#f92672">*</span>)(param_2[<span style="color:#ae81ff">1</span>] <span style="color:#f92672">+</span> <span style="color:#ae81ff">4</span>) <span style="color:#f92672">==</span> <span style="color:#e6db74">&#39;@&#39;</span>) {
+        puts(<span style="color:#e6db74">&#34;Nice Job!!&#34;</span>);
+        printf(<span style="color:#e6db74">&#34;flag{%s}</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>,param_2[<span style="color:#ae81ff">1</span>]);
+      }
+      <span style="color:#66d9ef">else</span> {
+        usage(<span style="color:#f92672">*</span>param_2);
+      }
+    }
+    <span style="color:#66d9ef">else</span> {
+      usage(<span style="color:#f92672">*</span>param_2);
+    }
+  }
+  <span style="color:#66d9ef">else</span> {
+    usage(<span style="color:#f92672">*</span>param_2);
+  }
+  <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>;
+}
+</code></pre></div><p>We can see that the program is storing in sVar1 the lenght of our input and comparing it with 10. If it is 10, it will check that the 5th position is equal to @. So any 10 character string whose 5th position is @ will be a valid password:</p>
+<pre tabindex="0"><code>Nice Job!!
+flag{1111@11111}
+</code></pre><p>In the following posts about Ghidra we will take a deeper look at Ghidra functions by solving more challenges.</p>
 </article>
       </div>
       
