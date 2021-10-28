@@ -13,7 +13,7 @@
       <pubDate>Wed, 27 Oct 2021 09:46:58 +0200</pubDate>
       
       <guid>https://jackleila.github.io/programming/public/post/get-started-with-gtest/</guid>
-      <description>In this post we will have a brief introduction to the Gtest library, with which we could do testing in C/C++.
+      <description>In this post we will have a brief introduction to the Google test library that will allow us to tests our C/C++ programs.
 Installing and compiling the Gtest library  First, we need to install the library:  sudo apt-get install libgtest-dev
  We compile using cmake:  cd /usr/src/gtest
 sudo cmake CMakeLists.txt
