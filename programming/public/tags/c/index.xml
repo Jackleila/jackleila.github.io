@@ -14,11 +14,11 @@
       
       <guid>https://jackleila.github.io/programming/public/post/get-started-with-gtest/</guid>
       <description>In this post we will have a brief introduction to the Google test library that will allow us to tests our C/C++ programs.
-Installing and compiling the Gtest library  First, we need to install the library:  sudo apt-get install libgtest-dev
- We compile using cmake:  cd /usr/src/gtest
+Installing and compiling the Gtest library First, we need to install the library: sudo apt-get install libgtest-dev
+We compile using cmake: cd /usr/src/gtest
 sudo cmake CMakeLists.txt
 sudo make
- We copy libgtest.a and libgtest_main.a to /usr/lib:  sudo cp *.a /usr/lib
+We copy libgtest.a and libgtest_main.a to /usr/lib: sudo cp *.a /usr/lib
 Getting started We will start with a very simple function:</description>
     </item>
     

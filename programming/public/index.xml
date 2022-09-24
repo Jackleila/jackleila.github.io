@@ -6,7 +6,16 @@
     <description>Recent content on It&#39;s a Dev&#39;s world</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 28 Oct 2021 12:04:53 +0200</lastBuildDate><atom:link href="https://jackleila.github.io/programming/public/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 24 Sep 2022 08:43:01 +0200</lastBuildDate><atom:link href="https://jackleila.github.io/programming/public/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ot_protocols</title>
+      <link>https://jackleila.github.io/programming/public/post/ot_protocols/</link>
+      <pubDate>Sat, 24 Sep 2022 08:43:01 +0200</pubDate>
+      
+      <guid>https://jackleila.github.io/programming/public/post/ot_protocols/</guid>
+      <description>Test post</description>
+    </item>
+    
     <item>
       <title>Reversing With Ghidra I</title>
       <link>https://jackleila.github.io/programming/public/post/reversing-with-ghidra-i/</link>
@@ -24,11 +33,11 @@ Installation To run Ghidra, you need to install JDK 11 64-bit.</description>
       
       <guid>https://jackleila.github.io/programming/public/post/get-started-with-gtest/</guid>
       <description>In this post we will have a brief introduction to the Google test library that will allow us to tests our C/C++ programs.
-Installing and compiling the Gtest library  First, we need to install the library:  sudo apt-get install libgtest-dev
- We compile using cmake:  cd /usr/src/gtest
+Installing and compiling the Gtest library First, we need to install the library: sudo apt-get install libgtest-dev
+We compile using cmake: cd /usr/src/gtest
 sudo cmake CMakeLists.txt
 sudo make
- We copy libgtest.a and libgtest_main.a to /usr/lib:  sudo cp *.a /usr/lib
+We copy libgtest.a and libgtest_main.a to /usr/lib: sudo cp *.a /usr/lib
 Getting started We will start with a very simple function:</description>
     </item>
     
@@ -49,14 +58,15 @@ Getting started We will start with a very simple function:</description>
       <guid>https://jackleila.github.io/programming/public/post/third-post/</guid>
       <description>Just a list of docker commands I use pretty often.
 General commands Show running containers:
-docker ps  Show all containers:
-docker ps -a  Information about a docker:
-docker inspect CONT  Open bash in docker:
-docker exec -it /bin/bash CONT  Delete container:
-docker rm CONT  List images:
-docker images  Remove image:
-docker image rm IMG  Build image:
-docker build --target production-stage -t NAME_IMG DOCKERFILE_DIR  Run image</description>
+docker psShow all containers:
+docker ps -aInformation about a docker:
+docker inspect CONTOpen bash in docker:
+docker exec -it /bin/bash CONTDelete container:
+docker rm CONTList images:
+docker imagesRemove image:
+docker image rm IMGBuild image:
+docker build --target production-stage -t NAME_IMG DOCKERFILE_DIRRun image
+docker run -p 8080 --name CONT_NAME IMG_NAMEDocker compose docker-compose updocker-compose downOption -d so it won&amp;rsquo;t show logs on screen</description>
     </item>
     
     <item>
