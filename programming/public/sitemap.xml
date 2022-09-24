@@ -2,7 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jackleila.github.io/programming/public/categories/</loc>
+    <lastmod>2022-09-24T08:43:01+02:00</lastmod>
+  </url><url>
     <loc>https://jackleila.github.io/programming/public/</loc>
+    <lastmod>2022-09-24T08:43:01+02:00</lastmod>
+  </url><url>
+    <loc>https://jackleila.github.io/programming/public/categories/ot/</loc>
     <lastmod>2022-09-24T08:43:01+02:00</lastmod>
   </url><url>
     <loc>https://jackleila.github.io/programming/public/post/ot_protocols/</loc>
@@ -11,8 +17,11 @@
     <loc>https://jackleila.github.io/programming/public/post/</loc>
     <lastmod>2022-09-24T08:43:01+02:00</lastmod>
   </url><url>
-    <loc>https://jackleila.github.io/programming/public/categories/</loc>
-    <lastmod>2021-10-28T12:04:53+02:00</lastmod>
+    <loc>https://jackleila.github.io/programming/public/tags/security/</loc>
+    <lastmod>2022-09-24T08:43:01+02:00</lastmod>
+  </url><url>
+    <loc>https://jackleila.github.io/programming/public/tags/</loc>
+    <lastmod>2022-09-24T08:43:01+02:00</lastmod>
   </url><url>
     <loc>https://jackleila.github.io/programming/public/categories/cracking/</loc>
     <lastmod>2021-10-28T12:04:53+02:00</lastmod>
@@ -24,9 +33,6 @@
     <lastmod>2021-10-28T12:04:53+02:00</lastmod>
   </url><url>
     <loc>https://jackleila.github.io/programming/public/post/reversing-with-ghidra-i/</loc>
-    <lastmod>2021-10-28T12:04:53+02:00</lastmod>
-  </url><url>
-    <loc>https://jackleila.github.io/programming/public/tags/</loc>
     <lastmod>2021-10-28T12:04:53+02:00</lastmod>
   </url><url>
     <loc>https://jackleila.github.io/programming/public/tags/c/</loc>
