@@ -6,80 +6,56 @@
     <description>Recent content in Posts on It&#39;s a Dev&#39;s world</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 24 Sep 2022 08:43:01 +0200</lastBuildDate><atom:link href="https://jackleila.github.io/programming/public/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 09 Jan 2024 00:02:24 +0100</lastBuildDate>
+    <atom:link href="https://jackleila.github.io/programming/public/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Ot_protocols</title>
+      <title>USB Detection in Windows</title>
+      <link>https://jackleila.github.io/programming/public/post/windows-usb-detection/</link>
+      <pubDate>Tue, 09 Jan 2024 00:02:24 +0100</pubDate>
+      <guid>https://jackleila.github.io/programming/public/post/windows-usb-detection/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Introduction to OT Protocols</title>
       <link>https://jackleila.github.io/programming/public/post/ot_protocols/</link>
       <pubDate>Sat, 24 Sep 2022 08:43:01 +0200</pubDate>
-      
       <guid>https://jackleila.github.io/programming/public/post/ot_protocols/</guid>
-      <description>Introduction to some OT protocols Modbus OPC UA Zigbee </description>
+      <description>Introduction to some OT protocols Modbus Modbus RTU Modbus RTU protocol allows data exchange between PLCs and PCs.&#xA;Modbus TCP To find devices using Modbus, we can use the following nmap script:&#xA;nmap --script modbus-discover.nse -p 502 &amp;lt;host&amp;gt;&#xA;OPC UA Zigbee </description>
     </item>
-    
     <item>
       <title>Reversing With Ghidra I</title>
       <link>https://jackleila.github.io/programming/public/post/reversing-with-ghidra-i/</link>
       <pubDate>Thu, 28 Oct 2021 12:04:53 +0200</pubDate>
-      
       <guid>https://jackleila.github.io/programming/public/post/reversing-with-ghidra-i/</guid>
-      <description>In this post we will take a brief look at Ghidra, a tool developed by the NSA for the reversing. Ghidra is a powerful program with a lot of options, and we will be exploring them in different tutorials by resolving different reversing challenges. In this tutorial we will look at the installation, project creation and overview by resolving a simple crackme.
-Installation To run Ghidra, you need to install JDK 11 64-bit.</description>
+      <description>In this post we will take a brief look at Ghidra, a tool developed by the NSA for the reversing. Ghidra is a powerful program with a lot of options, and we will be exploring them in different tutorials by resolving different reversing challenges. In this tutorial we will look at the installation, project creation and overview by resolving a simple crackme.&#xA;Installation To run Ghidra, you need to install JDK 11 64-bit.</description>
     </item>
-    
     <item>
       <title>Getting Started With Gtest</title>
       <link>https://jackleila.github.io/programming/public/post/get-started-with-gtest/</link>
       <pubDate>Wed, 27 Oct 2021 09:46:58 +0200</pubDate>
-      
       <guid>https://jackleila.github.io/programming/public/post/get-started-with-gtest/</guid>
-      <description>In this post we will have a brief introduction to the Google test library that will allow us to tests our C/C++ programs.
-Installing and compiling the Gtest library First, we need to install the library: sudo apt-get install libgtest-dev
-We compile using cmake: cd /usr/src/gtest
-sudo cmake CMakeLists.txt
-sudo make
-We copy libgtest.a and libgtest_main.a to /usr/lib: sudo cp *.a /usr/lib
-Getting started We will start with a very simple function:</description>
+      <description>In this post we will have a brief introduction to the Google test library that will allow us to tests our C/C++ programs.&#xA;Installing and compiling the Gtest library First, we need to install the library: sudo apt-get install libgtest-dev&#xA;We compile using cmake: cd /usr/src/gtest&#xA;sudo cmake CMakeLists.txt&#xA;sudo make&#xA;We copy libgtest.a and libgtest_main.a to /usr/lib: sudo cp *.a /usr/lib&#xA;Getting started We will start with a very simple function:</description>
     </item>
-    
     <item>
       <title>Useful docker commands to always have nearby</title>
       <link>https://jackleila.github.io/programming/public/post/third-post/</link>
       <pubDate>Wed, 22 Sep 2021 21:37:34 +0200</pubDate>
-      
       <guid>https://jackleila.github.io/programming/public/post/third-post/</guid>
-      <description>Just a list of docker commands I use pretty often.
-General commands Show running containers:
-docker psShow all containers:
-docker ps -aInformation about a docker:
-docker inspect CONTOpen bash in docker:
-docker exec -it /bin/bash CONTDelete container:
-docker rm CONTList images:
-docker imagesRemove image:
-docker image rm IMGBuild image:
-docker build --target production-stage -t NAME_IMG DOCKERFILE_DIRRun image
-docker run -p 8080 --name CONT_NAME IMG_NAMEDocker compose docker-compose updocker-compose downOption -d so it won&amp;rsquo;t show logs on screen</description>
+      <description>Just a list of docker commands I use pretty often.&#xA;General commands Show running containers:&#xA;docker ps&#xD;Show all containers:&#xA;docker ps -a&#xD;Information about a docker:&#xA;docker inspect CONT&#xD;Open bash in docker:&#xA;docker exec -it /bin/bash CONT&#xD;Delete container:&#xA;docker rm CONT&#xD;List images:&#xA;docker images&#xD;Remove image:&#xA;docker image rm IMG&#xD;Build image:&#xA;docker build --target production-stage -t NAME_IMG DOCKERFILE_DIR&#xD;Run image&#xA;docker run -p 8080 --name CONT_NAME IMG_NAME&#xD;Docker compose docker-compose up&#xD;docker-compose down&#xD;Option -d so it won&amp;rsquo;t show logs on screen</description>
     </item>
-    
     <item>
       <title>Nmap: basic guide for pentesting</title>
       <link>https://jackleila.github.io/programming/public/post/second-post/</link>
       <pubDate>Tue, 21 Sep 2021 20:40:40 +0200</pubDate>
-      
       <guid>https://jackleila.github.io/programming/public/post/second-post/</guid>
-      <description>Nmap is a well-known tool for pentesters and hackers. It basically allows us to scan the ports of a network, but it is much more powerful than that, as we will see in this post. We will start by reviewing some basic commands of nmap.
-Scanning ports We can use the following command to perform an scan of the specified port of the address given. This will show us which ports are open, closed, or protected by some firewall.</description>
+      <description>Nmap is a well-known tool for pentesters and hackers. It basically allows us to scan the ports of a network, but it is much more powerful than that, as we will see in this post. We will start by reviewing some basic commands of nmap.&#xA;Scanning ports We can use the following command to perform an scan of the specified port of the address given. This will show us which ports are open, closed, or protected by some firewall.</description>
     </item>
-    
     <item>
       <title>How to easily create a blog using Hugo</title>
       <link>https://jackleila.github.io/programming/public/post/first-post/</link>
       <pubDate>Sun, 19 Sep 2021 19:02:57 +0200</pubDate>
-      
       <guid>https://jackleila.github.io/programming/public/post/first-post/</guid>
-      <description>What is Hugo? Hugo is an open-source framework to simplify the process of creating static websites. There are a lot of different templates we can use online, which are usually very simple but beautiful. Some of them are even pretty original such as this one inspired in Mr. Robot.
-Now that we had a brief introduction of what Hugo is, let us make the theory into practice.
-Installation Windows We can install Hugo on Windows with Chocolatey:</description>
+      <description>What is Hugo? Hugo is an open-source framework to simplify the process of creating static websites. There are a lot of different templates we can use online, which are usually very simple but beautiful. Some of them are even pretty original such as this one inspired in Mr. Robot.&#xA;Now that we had a brief introduction of what Hugo is, let us make the theory into practice.&#xA;Installation Windows We can install Hugo on Windows with Chocolatey:</description>
     </item>
-    
   </channel>
 </rss>

@@ -6,15 +6,14 @@
     <description>Recent content in ot on It&#39;s a Dev&#39;s world</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 24 Sep 2022 08:43:01 +0200</lastBuildDate><atom:link href="https://jackleila.github.io/programming/public/categories/ot/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 24 Sep 2022 08:43:01 +0200</lastBuildDate>
+    <atom:link href="https://jackleila.github.io/programming/public/categories/ot/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Ot_protocols</title>
+      <title>Introduction to OT Protocols</title>
       <link>https://jackleila.github.io/programming/public/post/ot_protocols/</link>
       <pubDate>Sat, 24 Sep 2022 08:43:01 +0200</pubDate>
-      
       <guid>https://jackleila.github.io/programming/public/post/ot_protocols/</guid>
-      <description>Introduction to some OT protocols Modbus OPC UA Zigbee </description>
+      <description>Introduction to some OT protocols Modbus Modbus RTU Modbus RTU protocol allows data exchange between PLCs and PCs.&#xA;Modbus TCP To find devices using Modbus, we can use the following nmap script:&#xA;nmap --script modbus-discover.nse -p 502 &amp;lt;host&amp;gt;&#xA;OPC UA Zigbee </description>
     </item>
-    
   </channel>
 </rss>

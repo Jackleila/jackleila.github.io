@@ -6,69 +6,63 @@
     <description>Recent content in Categories on It&#39;s a Dev&#39;s world</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 24 Sep 2022 08:43:01 +0200</lastBuildDate><atom:link href="https://jackleila.github.io/programming/public/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 09 Jan 2024 00:02:24 +0100</lastBuildDate>
+    <atom:link href="https://jackleila.github.io/programming/public/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>forensics</title>
+      <link>https://jackleila.github.io/programming/public/categories/forensics/</link>
+      <pubDate>Tue, 09 Jan 2024 00:02:24 +0100</pubDate>
+      <guid>https://jackleila.github.io/programming/public/categories/forensics/</guid>
+      <description></description>
+    </item>
     <item>
       <title>ot</title>
       <link>https://jackleila.github.io/programming/public/categories/ot/</link>
       <pubDate>Sat, 24 Sep 2022 08:43:01 +0200</pubDate>
-      
       <guid>https://jackleila.github.io/programming/public/categories/ot/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>cracking</title>
       <link>https://jackleila.github.io/programming/public/categories/cracking/</link>
       <pubDate>Thu, 28 Oct 2021 12:04:53 +0200</pubDate>
-      
       <guid>https://jackleila.github.io/programming/public/categories/cracking/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>reversing</title>
       <link>https://jackleila.github.io/programming/public/categories/reversing/</link>
       <pubDate>Thu, 28 Oct 2021 12:04:53 +0200</pubDate>
-      
       <guid>https://jackleila.github.io/programming/public/categories/reversing/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>testing</title>
       <link>https://jackleila.github.io/programming/public/categories/testing/</link>
       <pubDate>Wed, 27 Oct 2021 09:46:58 +0200</pubDate>
-      
       <guid>https://jackleila.github.io/programming/public/categories/testing/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>programming</title>
       <link>https://jackleila.github.io/programming/public/categories/programming/</link>
       <pubDate>Wed, 22 Sep 2021 21:37:34 +0200</pubDate>
-      
       <guid>https://jackleila.github.io/programming/public/categories/programming/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>security</title>
       <link>https://jackleila.github.io/programming/public/categories/security/</link>
       <pubDate>Tue, 21 Sep 2021 20:40:40 +0200</pubDate>
-      
       <guid>https://jackleila.github.io/programming/public/categories/security/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>web</title>
       <link>https://jackleila.github.io/programming/public/categories/web/</link>
       <pubDate>Sun, 19 Sep 2021 19:02:57 +0200</pubDate>
-      
       <guid>https://jackleila.github.io/programming/public/categories/web/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

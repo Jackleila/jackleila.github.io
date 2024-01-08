@@ -1,4 +1,4 @@
-baseURL = 'https://jackleila.github.io/programming/public/'
+baseURL = 'https://jackleila.github.io/programming/public'
 languageCode = 'en-us'
 paginate = 10
 title = "It's a Dev's world"
