@@ -13,7 +13,7 @@
       <link>https://jackleila.github.io/programming/public/post/windows-usb-detection/</link>
       <pubDate>Tue, 09 Jan 2024 00:02:24 +0100</pubDate>
       <guid>https://jackleila.github.io/programming/public/post/windows-usb-detection/</guid>
-      <description></description>
+      <description>Windows Event Logs Security Event Logs 6416 – A new external device was recognized by the system. 4663 – An attempt was made to access an object (useful to monitor file access on USB drives). 4656 – A handle to an object was requested. 4624 / 4634 – Logon/logoff events to correlate user activity with USB usage. System Event Logs From the Microsoft-Windows-DriverFrameworks-UserMode/Operational log:&#xA;20001 – A USB device was connected.</description>
     </item>
   </channel>
 </rss>

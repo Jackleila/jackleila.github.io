@@ -93,7 +93,35 @@
       <div class="column is-1 is-hidden-mobile"></div>
       <div class="column is-8">
       
-        <article class="content" id="post-content"></article>
+        <article class="content" id="post-content"><h1 id="windows-event-logs">Windows Event Logs</h1>
+<h2 id="security-event-logs">Security Event Logs</h2>
+<ul>
+<li><strong>6416</strong> – A new external device was recognized by the system.</li>
+<li><strong>4663</strong> – An attempt was made to access an object (useful to monitor file access on USB drives).</li>
+<li><strong>4656</strong> – A handle to an object was requested.</li>
+<li><strong>4624 / 4634</strong> – Logon/logoff events to correlate user activity with USB usage.</li>
+</ul>
+<h3 id="system-event-logs">System Event Logs</h3>
+<p>From the Microsoft-Windows-DriverFrameworks-UserMode/Operational log:</p>
+<ul>
+<li><strong>20001</strong> – A USB device was connected.</li>
+<li><strong>2100 / 2102</strong> – USB mass storage device installed/removed.</li>
+</ul>
+<h2 id="registry-locations">Registry Locations</h2>
+<p>Relevant registry keys for tracking USB usage:</p>
+<ul>
+<li><code>HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\USBSTOR</code></li>
+<li><code>HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\USBSTOR</code></li>
+<li><code>HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\USB</code></li>
+</ul>
+<h2 id="useful-tools">Useful Tools</h2>
+<ul>
+<li><strong>Nirsoft USBDriveLog</strong> – Lists all USB drives plugged into the system with timestamps.</li>
+<li><strong>USBDeview</strong> – Detailed info on current and past USB devices.</li>
+<li><strong>Velociraptor</strong> – DFIR tool to collect USB artifacts at scale.</li>
+<li><strong>Sysmon</strong> – Can be configured to log USB events via driver load monitoring.</li>
+</ul>
+</article>
       </div>
       
       <div class="column is-hidden-mobile">

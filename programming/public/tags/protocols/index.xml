@@ -13,7 +13,7 @@
       <link>https://jackleila.github.io/programming/public/post/ot_protocols/</link>
       <pubDate>Sat, 24 Sep 2022 08:43:01 +0200</pubDate>
       <guid>https://jackleila.github.io/programming/public/post/ot_protocols/</guid>
-      <description>Introduction to some OT protocols Modbus Modbus RTU Modbus RTU protocol allows data exchange between PLCs and PCs.&#xA;Modbus TCP To find devices using Modbus, we can use the following nmap script:&#xA;nmap --script modbus-discover.nse -p 502 &amp;lt;host&amp;gt;&#xA;OPC UA Zigbee </description>
+      <description>Introduction to some OT protocols Modbus Modbus RTU Modbus RTU is a serial communication protocol that allows data exchange between PLCs and PCs.&#xA;Modbus TCP To find devices using Modbus, we can use the following nmap script:&#xA;nmap --script modbus-discover.nse -p 502 &amp;lt;host&amp;gt;&#xA;Modbus TCP Modbus TCP is a variant of Modbus RTU over TCP/IP.&#xA;Common Port: 502/TCP&#xA;To find devices using Modbus TCP, we can use the following Nmap script:</description>
     </item>
   </channel>
 </rss>

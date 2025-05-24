@@ -100,12 +100,115 @@
         <article class="content" id="post-content"><h1 id="introduction-to-some-ot-protocols">Introduction to some OT protocols</h1>
 <h2 id="modbus">Modbus</h2>
 <h3 id="modbus-rtu">Modbus RTU</h3>
-<p>Modbus RTU protocol allows data exchange between PLCs and PCs.</p>
+<p>Modbus RTU is a serial communication protocol that allows data exchange between PLCs and PCs.</p>
 <h3 id="modbus-tcp">Modbus TCP</h3>
 <p>To find devices using Modbus, we can use the following nmap script:</p>
 <p><code>nmap --script modbus-discover.nse -p 502 &lt;host&gt;</code></p>
-<h2 id="opc-ua">OPC UA</h2>
-<h2 id="zigbee">Zigbee</h2>
+<h3 id="modbus-tcp-1">Modbus TCP</h3>
+<p>Modbus TCP is a variant of Modbus RTU over TCP/IP.</p>
+<p>Common Port: 502/TCP</p>
+<p>To find devices using Modbus TCP, we can use the following Nmap script:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>nmap --script modbus-discover.nse -p <span style="color:#ae81ff">502</span> &lt;host&gt;
+</span></span></code></pre></div><h2 id="opc-ua">OPC UA</h2>
+<p>OPC Unified Architecture (UA) is another communication protocol for industrial automation. It is more secure and flexible than older OPC versions.</p>
+<p>Common Port: 4840/TCP</p>
+<p>Tools:</p>
+<ul>
+<li>Prosys OPC UA Simulation Server (for testing)</li>
+<li>UaExpert (client)</li>
+<li>Nmap script (OPC UA):</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>nmap --script opc-ua-info -p <span style="color:#ae81ff">4840</span> &lt;host&gt;
+</span></span></code></pre></div><h2 id="zigbee">Zigbee</h2>
+<p>Zigbee is a wireless communication protocol used in IoT and industrial control systems. It operates over IEEE 802.15.4.</p>
+<p>Common Frequency: 2.4 GHz (no standard TCP/UDP port)</p>
+<p>Tools:</p>
+<ul>
+<li>KillerBee toolkit</li>
+<li>ZBOSS Sniffer</li>
+<li>HackRF / RZUSBstick</li>
+</ul>
+<p>Common Commands:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>zbid
+</span></span><span style="display:flex;"><span>zbstumbler
+</span></span><span style="display:flex;"><span>zbfind
+</span></span></code></pre></div><h2 id="dnp3">DNP3</h2>
+<p>Distributed Network Protocol 3 is used in utilities like electric and water companies. It is designed for SCADA systems.</p>
+<p>Common Port: 20000/TCP</p>
+<p>Tools:</p>
+<ul>
+<li>Wireshark (with DNP3 dissector)</li>
+<li>Scapy for crafting DNP3 packets</li>
+<li>Nmap script:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>nmap -sV -p <span style="color:#ae81ff">20000</span> &lt;host&gt;
+</span></span></code></pre></div><h2 id="bacnet">BACnet</h2>
+<p>BACnet is a communication protocol for building automation and control networks.</p>
+<p>Common Port: 47808/UDP (also known as port 0xBAC0)</p>
+<p>Tools:</p>
+<ul>
+<li>
+<p>BACnet Stack (for custom applications)</p>
+</li>
+<li>
+<p>Nmap script:</p>
+</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>nmap --script bacnet-info -p <span style="color:#ae81ff">47808</span> &lt;host&gt;
+</span></span></code></pre></div><h2 id="mqtt">MQTT</h2>
+<p>MQTT is a lightweight messaging protocol used for small sensors and mobile devices.</p>
+<p>Common Port: 1883/TCP (unencrypted), 8883/TCP (encrypted)</p>
+<p>Tools:</p>
+<ul>
+<li>
+<p>MQTT Explorer</p>
+</li>
+<li>
+<p>Mosquitto client</p>
+</li>
+<li>
+<p>Nmap script:</p>
+</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>nmap -sV -p 1883,8883 &lt;host&gt;
+</span></span></code></pre></div><h2 id="profinet">Profinet</h2>
+<p>Profinet is an industry technical standard for data communication over Industrial Ethernet, designed for collecting data from and controlling equipment in industrial systems.</p>
+<p>Common Port: 34964/UDP, 34962/UDP</p>
+<p>Tools:</p>
+<ul>
+<li>Wireshark (with Profinet dissector)</li>
+<li>PNIO Test Tools</li>
+</ul>
+<h2 id="ethernetip">EtherNet/IP</h2>
+<p>EtherNet/IP is a widely used industrial network protocol that implements the Common Industrial Protocol (CIP) over standard Ethernet.</p>
+<p>Common Port: 44818/TCP and UDP</p>
+<p>Tools:</p>
+<ul>
+<li>cpppo (Python library)</li>
+<li>Nmap script:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>nmap -sV -p <span style="color:#ae81ff">44818</span> &lt;host&gt;
+</span></span></code></pre></div><h2 id="iec-60870-5-104">IEC 60870-5-104</h2>
+<p>IEC 60870-5-104 is a protocol used for telecontrol in electrical engineering and power system automation applications.</p>
+<p>Common Port: 2404/TCP</p>
+<ul>
+<li>Nmap script:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>nmap -sV -p <span style="color:#ae81ff">2404</span> &lt;host&gt;
+</span></span></code></pre></div><h2 id="hart-ip">HART-IP</h2>
+<p>HART-IP enables communication between HART devices and host applications over IP networks.</p>
+<p>Common Port: 5094/TCP</p>
+<p>Tools:</p>
+<ul>
+<li>FieldComm Group tools</li>
+</ul>
+<h2 id="enip-controlnetdevicenet-over-ethernet">EnIP (ControlNet/DeviceNet over Ethernet)</h2>
+<p>EnIP (Ethernet Industrial Protocol) supports both ControlNet and DeviceNet over Ethernet.</p>
+<p>Common Port: 2222/UDP (I/O Messaging)</p>
+<p>Tools:</p>
+<ul>
+<li>cpppo</li>
+</ul>
 </article>
       </div>
       
