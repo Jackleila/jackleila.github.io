@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>frida on It&#39;s a Dev&#39;s world</title>
+    <link>https://jackleila.github.io/programming/public/tags/frida/</link>
+    <description>Recent content in frida on It&#39;s a Dev&#39;s world</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 12 Jun 2025 17:09:47 +0200</lastBuildDate>
+    <atom:link href="https://jackleila.github.io/programming/public/tags/frida/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Configuration Frida Android</title>
+      <link>https://jackleila.github.io/programming/public/post/configuration-frida-android/</link>
+      <pubDate>Thu, 12 Jun 2025 17:09:47 +0200</pubDate>
+      <guid>https://jackleila.github.io/programming/public/post/configuration-frida-android/</guid>
+      <description>Getting started with Frida In this post, I will briefly talk about how to configure Frida. For this tutorial I used an Android emulator with root permissions, but Frida can also be used for other platforms.&#xA;Installation First step is to have ADB installed. If you have Android studio, you will probably have it already installed. I summarized some basic commands on the post about Android forensics.&#xA;To install Frida, we can use Python packet manager pip:</description>
+    </item>
+  </channel>
+</rss>

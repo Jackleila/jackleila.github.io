@@ -6,14 +6,21 @@
     <description>Recent content on It&#39;s a Dev&#39;s world</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 24 May 2025 13:23:21 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 12 Jun 2025 17:09:47 +0200</lastBuildDate>
     <atom:link href="https://jackleila.github.io/programming/public/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Configuration Frida Android</title>
+      <link>https://jackleila.github.io/programming/public/post/configuration-frida-android/</link>
+      <pubDate>Thu, 12 Jun 2025 17:09:47 +0200</pubDate>
+      <guid>https://jackleila.github.io/programming/public/post/configuration-frida-android/</guid>
+      <description>Getting started with Frida In this post, I will briefly talk about how to configure Frida. For this tutorial I used an Android emulator with root permissions, but Frida can also be used for other platforms.&#xA;Installation First step is to have ADB installed. If you have Android studio, you will probably have it already installed. I summarized some basic commands on the post about Android forensics.&#xA;To install Frida, we can use Python packet manager pip:</description>
+    </item>
     <item>
       <title>Android Forensics Tools</title>
       <link>https://jackleila.github.io/programming/public/post/android-forensics-tools/</link>
       <pubDate>Sat, 24 May 2025 13:23:21 +0200</pubDate>
       <guid>https://jackleila.github.io/programming/public/post/android-forensics-tools/</guid>
-      <description>Android Forensics Tools My personal compilation of tools for Android Forensics and Analysis. I will be extending this list.&#xA;ADB Useful to interact with Android devices via command line.&#xA;🔗 Download ADB&#xA;Commands:&#xA;adb devices # List connected devices adb shell # Start shell on device adb install .\app-debug.apk&#x9;# Install app adb pull /sdcard/data.txt # Copy file from device adb push&#x9;# Ex (adb push .\frida-server-16.7.14-android-x86_64 /data/local/tmp/) adb logcat # View device logs LiME (Linux Memory Extractor) Dumping volatile memory from Android devices.</description>
+      <description>Android Forensics Tools My personal compilation of tools for Android Forensics and Analysis. I will be extending this list.&#xA;ADB Useful to interact with Android devices via the command line.&#xA;🔗 Download ADB&#xA;Commands:&#xA;adb devices # List connected devices adb shell # Start shell on device adb install .\app-debug.apk&#x9;# Install app adb pull /sdcard/data.txt # Copy file from device adb push&#x9;# Ex (adb push .\frida-server-16.7.14-android-x86_64 /data/local/tmp/) adb logcat # View device logs LiME (Linux Memory Extractor) Dumping volatile memory from Android devices.</description>
     </item>
     <item>
       <title>USB Detection in Windows</title>

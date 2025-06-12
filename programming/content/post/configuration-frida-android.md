@@ -1,7 +1,8 @@
 ---
 title: "Configuration Frida Android"
 date: 2025-06-12T17:09:47+02:00
-math: false
+featured: true
+draft: false
 tags: [android, frida]
 ---
 

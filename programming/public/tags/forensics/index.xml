@@ -13,7 +13,7 @@
       <link>https://jackleila.github.io/programming/public/post/android-forensics-tools/</link>
       <pubDate>Sat, 24 May 2025 13:23:21 +0200</pubDate>
       <guid>https://jackleila.github.io/programming/public/post/android-forensics-tools/</guid>
-      <description>Android Forensics Tools My personal compilation of tools for Android Forensics and Analysis. I will be extending this list.&#xA;ADB Useful to interact with Android devices via command line.&#xA;🔗 Download ADB&#xA;Commands:&#xA;adb devices # List connected devices adb shell # Start shell on device adb install .\app-debug.apk&#x9;# Install app adb pull /sdcard/data.txt # Copy file from device adb push&#x9;# Ex (adb push .\frida-server-16.7.14-android-x86_64 /data/local/tmp/) adb logcat # View device logs LiME (Linux Memory Extractor) Dumping volatile memory from Android devices.</description>
+      <description>Android Forensics Tools My personal compilation of tools for Android Forensics and Analysis. I will be extending this list.&#xA;ADB Useful to interact with Android devices via the command line.&#xA;🔗 Download ADB&#xA;Commands:&#xA;adb devices # List connected devices adb shell # Start shell on device adb install .\app-debug.apk&#x9;# Install app adb pull /sdcard/data.txt # Copy file from device adb push&#x9;# Ex (adb push .\frida-server-16.7.14-android-x86_64 /data/local/tmp/) adb logcat # View device logs LiME (Linux Memory Extractor) Dumping volatile memory from Android devices.</description>
     </item>
     <item>
       <title>USB Detection in Windows</title>
