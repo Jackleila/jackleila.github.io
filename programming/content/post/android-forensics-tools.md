@@ -14,7 +14,7 @@ My personal compilation of tools for Android Forensics and Analysis. I will be e
 
 ## **ADB**
 
-Useful to interact with Android devices via command line.
+Useful to interact with Android devices via the command line.
 
 🔗 [Download ADB](https://developer.android.com/studio/releases/platform-tools)
 
