@@ -1,7 +1,8 @@
 ---
 title: "Mobile Pentesting: Configuring Frida"
 date: 2025-06-12T14:47:27+02:00
-math: false
+featured: true
+draft: false
 tags: [android, frida]
 categories: [mobile, pentesting]
 ---
