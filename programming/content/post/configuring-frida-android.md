@@ -54,4 +54,3 @@ Allow us to show the applications installed and its package names:
 
 -a	Show applications
 
-
