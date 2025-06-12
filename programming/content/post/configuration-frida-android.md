@@ -1,5 +1,5 @@
 ---
-title: "Configuration Frida Android"
+title: "Android pentesting: Introduction to Frida"
 date: 2025-06-12T17:09:47+02:00
 featured: true
 draft: false
