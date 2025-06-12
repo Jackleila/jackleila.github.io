@@ -39,6 +39,8 @@ And now our Frida setup should be ready:
 
 ![Frida](https://jackleila.github.io/programming/images/frida_ps.png)
 
+## **Commands**
+
 The command: 
 
 ```bash
