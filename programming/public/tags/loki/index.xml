@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Loki on It&#39;s a Dev&#39;s world</title>
+    <link>https://jackleila.github.io/programming/public/tags/loki/</link>
+    <description>Recent content in Loki on It&#39;s a Dev&#39;s world</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 14 Jun 2025 20:35:35 +0200</lastBuildDate>
+    <atom:link href="https://jackleila.github.io/programming/public/tags/loki/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Malware Detection: YARA</title>
+      <link>https://jackleila.github.io/programming/public/post/malware-detection-yara-rules/</link>
+      <pubDate>Sat, 14 Jun 2025 20:35:35 +0200</pubDate>
+      <guid>https://jackleila.github.io/programming/public/post/malware-detection-yara-rules/</guid>
+      <description>Introduction to YARA YARA is a tool used to identify and classify malware based on textual or binary patterns. In this tutorial, we&amp;rsquo;ll cover the basics of YARA and how to write simple rules to detect patterns in files.&#xA;What Is YARA? YARA (Yet Another Recursive Acronym) is a rule-based pattern matching engine developed by VirusTotal, widely used for:&#xA;Detecting malware families Scanning files for custom signatures Automating threat detection in incident response Installation Linux: sudo apt update sudo apt install yara macOS: brew install yara Windows: Download it from here.</description>
+    </item>
+  </channel>
+</rss>
