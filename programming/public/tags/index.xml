@@ -6,8 +6,15 @@
     <description>Recent content in Tags on It&#39;s a Dev&#39;s world</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 14 Jun 2025 20:35:35 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 20 Jul 2025 14:50:37 +0200</lastBuildDate>
     <atom:link href="https://jackleila.github.io/programming/public/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>opensearch</title>
+      <link>https://jackleila.github.io/programming/public/tags/opensearch/</link>
+      <pubDate>Sun, 20 Jul 2025 14:50:37 +0200</pubDate>
+      <guid>https://jackleila.github.io/programming/public/tags/opensearch/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Loki</title>
       <link>https://jackleila.github.io/programming/public/tags/loki/</link>

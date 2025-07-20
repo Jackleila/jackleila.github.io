@@ -3,10 +3,25 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://jackleila.github.io/programming/public/categories/</loc>
-    <lastmod>2025-06-14T20:35:35+02:00</lastmod>
+    <lastmod>2025-07-20T14:50:37+02:00</lastmod>
+  </url><url>
+    <loc>https://jackleila.github.io/programming/public/post/easy-opensearch-installation/</loc>
+    <lastmod>2025-07-20T14:50:37+02:00</lastmod>
   </url><url>
     <loc>https://jackleila.github.io/programming/public/</loc>
-    <lastmod>2025-06-14T20:35:35+02:00</lastmod>
+    <lastmod>2025-07-20T14:50:37+02:00</lastmod>
+  </url><url>
+    <loc>https://jackleila.github.io/programming/public/tags/opensearch/</loc>
+    <lastmod>2025-07-20T14:50:37+02:00</lastmod>
+  </url><url>
+    <loc>https://jackleila.github.io/programming/public/post/</loc>
+    <lastmod>2025-07-20T14:50:37+02:00</lastmod>
+  </url><url>
+    <loc>https://jackleila.github.io/programming/public/categories/soc/</loc>
+    <lastmod>2025-07-20T14:50:37+02:00</lastmod>
+  </url><url>
+    <loc>https://jackleila.github.io/programming/public/tags/</loc>
+    <lastmod>2025-07-20T14:50:37+02:00</lastmod>
   </url><url>
     <loc>https://jackleila.github.io/programming/public/tags/loki/</loc>
     <lastmod>2025-06-14T20:35:35+02:00</lastmod>
@@ -15,12 +30,6 @@
     <lastmod>2025-06-14T20:35:35+02:00</lastmod>
   </url><url>
     <loc>https://jackleila.github.io/programming/public/post/malware-detection-yara-rules/</loc>
-    <lastmod>2025-06-14T20:35:35+02:00</lastmod>
-  </url><url>
-    <loc>https://jackleila.github.io/programming/public/post/</loc>
-    <lastmod>2025-06-14T20:35:35+02:00</lastmod>
-  </url><url>
-    <loc>https://jackleila.github.io/programming/public/tags/</loc>
     <lastmod>2025-06-14T20:35:35+02:00</lastmod>
   </url><url>
     <loc>https://jackleila.github.io/programming/public/tags/yara/</loc>

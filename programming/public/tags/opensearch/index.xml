@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>opensearch on It&#39;s a Dev&#39;s world</title>
+    <link>https://jackleila.github.io/programming/public/tags/opensearch/</link>
+    <description>Recent content in opensearch on It&#39;s a Dev&#39;s world</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 20 Jul 2025 14:50:37 +0200</lastBuildDate>
+    <atom:link href="https://jackleila.github.io/programming/public/tags/opensearch/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Easy Opensearch Installation</title>
+      <link>https://jackleila.github.io/programming/public/post/easy-opensearch-installation/</link>
+      <pubDate>Sun, 20 Jul 2025 14:50:37 +0200</pubDate>
+      <guid>https://jackleila.github.io/programming/public/post/easy-opensearch-installation/</guid>
+      <description>Opensearch quickly installation guide This post is a small summary of how to quickly get started with Opensearch. The installation is done with Docker using the docker compose file found in the official repo.&#xA;In the recent versions of Opensearch you need to specify the OPENSEARCH_INITIAL_ADMIN_PASSWORD as an enviromental variable, otherwise it will not work.&#xA;Something important is, the documentation specifies that you need to ensure that vm.max_map_count is set to at least 262144.</description>
+    </item>
+  </channel>
+</rss>
