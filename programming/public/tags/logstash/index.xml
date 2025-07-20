@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>soc on It&#39;s a Dev&#39;s world</title>
-    <link>https://jackleila.github.io/programming/public/categories/soc/</link>
-    <description>Recent content in soc on It&#39;s a Dev&#39;s world</description>
+    <title>logstash on It&#39;s a Dev&#39;s world</title>
+    <link>https://jackleila.github.io/programming/public/tags/logstash/</link>
+    <description>Recent content in logstash on It&#39;s a Dev&#39;s world</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 20 Jul 2025 17:34:16 +0200</lastBuildDate>
-    <atom:link href="https://jackleila.github.io/programming/public/categories/soc/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jackleila.github.io/programming/public/tags/logstash/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Configuring Filebeat and Logstash with Opensearch</title>
       <link>https://jackleila.github.io/programming/public/post/configuring-filebeat-and-logstash/</link>
       <pubDate>Sun, 20 Jul 2025 17:34:16 +0200</pubDate>
       <guid>https://jackleila.github.io/programming/public/post/configuring-filebeat-and-logstash/</guid>
       <description>In this post we will make Opensearch work with Filebeat and logstash to send, parse and analyze logs.&#xA;Installing Filebeat and Logstash Download Filebeat here and Logstash here.&#xA;Configurations In filebeat.yml, enter the following:&#xA;filebeat.inputs: - type: filestream id: my-filestream-id enabled: true paths: - C:\logs\*.log output.logstash: hosts: [&amp;#34;localhost:5044&amp;#34;] In paths, you can specify any path were you will be storing your logs. Since this is a simple tutorial for testing the setup, I created a logs folder in C, were I manually added some sample logs.</description>
-    </item>
-    <item>
-      <title>Easy Opensearch Installation</title>
-      <link>https://jackleila.github.io/programming/public/post/easy-opensearch-installation/</link>
-      <pubDate>Sun, 20 Jul 2025 14:50:37 +0200</pubDate>
-      <guid>https://jackleila.github.io/programming/public/post/easy-opensearch-installation/</guid>
-      <description>Opensearch quickly installation guide This post is a small summary of how to quickly get started with Opensearch. The installation is done with Docker using the docker compose file found in the official repo.&#xA;In the recent versions of Opensearch you need to specify the OPENSEARCH_INITIAL_ADMIN_PASSWORD as an enviromental variable, otherwise it will not work.&#xA;Something important is, the documentation specifies that you need to ensure that vm.max_map_count is set to at least 262144.</description>
     </item>
   </channel>
 </rss>

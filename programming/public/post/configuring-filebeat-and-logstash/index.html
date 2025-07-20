@@ -4,17 +4,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="msapplication-TileImage" content="/ms-icon-144x144.png"><meta name="msapplication-TileColor" content=" #abebc6">
-  <meta name="theme-color" content=" #abebc6"><title>Easy Opensearch Installation | It&#39;s a Dev&#39;s world</title>
-  <meta property="og:title" content="Easy Opensearch Installation - It&#39;s a Dev&#39;s world">
+  <meta name="theme-color" content=" #abebc6"><title>Configuring Filebeat and Logstash with Opensearch | It&#39;s a Dev&#39;s world</title>
+  <meta property="og:title" content="Configuring Filebeat and Logstash with Opensearch - It&#39;s a Dev&#39;s world">
   <meta property="og:type" content="article">
   
-  <meta property="article:published_time" content="2025-07-20T14:50:37&#43;08:00">
+  <meta property="article:published_time" content="2025-07-20T17:34:16&#43;08:00">
   
   
-  <meta property="article:modified_time" content="2025-07-20T14:50:37&#43;08:00">
+  <meta property="article:modified_time" content="2025-07-20T17:34:16&#43;08:00">
   
   <meta name="keywords" content="HTML, hugo, CSS, security, hacking, programming">
-  <meta name="description" content="Easy Opensearch Installation"><meta name="author" content="">
+  <meta name="description" content="Configuring Filebeat and Logstash with Opensearch"><meta name="author" content="">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
@@ -61,7 +61,7 @@
   <div class="hero-body">
     <header class="container has-text-centered">
       <h1 class="title post-title">
-        Easy Opensearch Installation
+        Configuring Filebeat and Logstash with Opensearch
       </h1>
       <h2 class="subtitle"><time class="post-meta">2025/07/20</time> ・
           
@@ -74,7 +74,11 @@
       <div class="tagbox post-meta">
         
         <span class="post-tag">
-          <a href="https://jackleila.github.io/programming/public/tags/opensearch">#opensearch</a>
+          <a href="https://jackleila.github.io/programming/public/tags/filebeat">#filebeat</a>
+        </span>
+        
+        <span class="post-tag">
+          <a href="https://jackleila.github.io/programming/public/tags/logstash">#logstash</a>
         </span>
         
       </div>
@@ -89,20 +93,46 @@
       <div class="column is-1 is-hidden-mobile"></div>
       <div class="column is-8">
       
-        <article class="content" id="post-content"><h1 id="opensearch-quickly-installation-guide">Opensearch quickly installation guide</h1>
-<p>This post is a small summary of how to quickly get started with Opensearch. The installation is done with Docker using the docker compose file found in the <a href="https://github.com/opensearch-project/opensearch-build/tree/main/docker/release/dockercomposefiles">official repo</a>.</p>
-<p>In the recent versions of Opensearch you need to specify the OPENSEARCH_INITIAL_ADMIN_PASSWORD as an enviromental variable, otherwise it will not work.</p>
-<p>Something important is, the documentation specifies that you need to ensure that vm.max_map_count is set to at least 262144. To do this using Docker and WSL2:</p>
-<p>Enter the WSL environment where Docker actually runs your containers:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>wsl -d docker-desktop
-</span></span></code></pre></div><p>Run:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sysctl -w vm.max_map_count<span style="color:#f92672">=</span><span style="color:#ae81ff">262144</span>
-</span></span></code></pre></div><p>Then you can run</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>docker-compose up
-</span></span></code></pre></div><p>And after the containers start up, the nodes and dashboard are accessible in http://localhost:9200/ and http://localhost:5601/</p>
-<h1 id="playing-around">Playing around</h1>
-<p>You can import some sample data to take a look at how Opensearch dashboard works. In the next tutorials, I will explain how to configure Logstash and Filebeat.</p>
-<p><img src="https://jackleila.github.io/programming/images/opensearch.png" alt="Opensearch"></p>
+        <article class="content" id="post-content"><p>In this post we will make Opensearch work with Filebeat and logstash to send, parse and analyze logs.</p>
+<h2 id="installing-filebeat-and-logstash">Installing Filebeat and Logstash</h2>
+<p>Download Filebeat <a href="https://www.elastic.co/downloads/beats/filebeat">here</a> and Logstash <a href="https://www.elastic.co/downloads/logstash">here</a>.</p>
+<h2 id="configurations">Configurations</h2>
+<p>In <strong>filebeat.yml</strong>, enter the following:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>filebeat.inputs:
+</span></span><span style="display:flex;"><span>- type: filestream
+</span></span><span style="display:flex;"><span>  id: my-filestream-id
+</span></span><span style="display:flex;"><span>  enabled: true  
+</span></span><span style="display:flex;"><span>  paths:
+</span></span><span style="display:flex;"><span>    - C:<span style="color:#ae81ff">\l</span>ogs<span style="color:#ae81ff">\*</span>.log 
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>output.logstash:
+</span></span><span style="display:flex;"><span>  hosts: <span style="color:#f92672">[</span><span style="color:#e6db74">&#34;localhost:5044&#34;</span><span style="color:#f92672">]</span>
+</span></span></code></pre></div><p>In <strong>paths</strong>, you can specify any path were you will be storing your logs. Since this is a simple tutorial for testing the setup, I created a logs folder in C, were I manually added some sample logs.</p>
+<p>In <strong>logstash.conf</strong>, enter the following:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>input <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>  beats <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>    port <span style="color:#f92672">=</span>&gt; <span style="color:#ae81ff">5044</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>output <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>  stdout <span style="color:#f92672">{</span> codec <span style="color:#f92672">=</span>&gt; rubydebug <span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>  opensearch <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>    hosts <span style="color:#f92672">=</span>&gt; <span style="color:#f92672">[</span><span style="color:#e6db74">&#34;https://localhost:9200&#34;</span><span style="color:#f92672">]</span>
+</span></span><span style="display:flex;"><span>    user <span style="color:#f92672">=</span>&gt; <span style="color:#e6db74">&#34;OPENSEARCH_USER&#34;</span>
+</span></span><span style="display:flex;"><span>    password <span style="color:#f92672">=</span>&gt; <span style="color:#e6db74">&#34;OPENSEARCH_PASSWORD&#34;</span>
+</span></span><span style="display:flex;"><span>    ssl <span style="color:#f92672">=</span>&gt; true
+</span></span><span style="display:flex;"><span>    ssl_certificate_verification <span style="color:#f92672">=</span>&gt; false
+</span></span><span style="display:flex;"><span>    index <span style="color:#f92672">=</span>&gt; <span style="color:#e6db74">&#34;filebeat-%{+YYYY.MM.dd}&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span></code></pre></div><h2 id="running">Running</h2>
+<p>In the filebeat installation path, execute:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>.<span style="color:#ae81ff">\f</span>ilebeat.exe -e -c filebeat.yml
+</span></span></code></pre></div><p>in the bin subdirectory of the logstash installation path, execute:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>.<span style="color:#ae81ff">\l</span>ogstash.bat -f ..<span style="color:#ae81ff">\l</span>ogstash.conf
+</span></span></code></pre></div><p>If everything is correct, when you add some logs to the specified directory in filebeat.yml, you should see them in the console of logstash, and then they should be sent to Opensearch. You can create an index pattern by going to Management -&gt; Dashboards Management and selecting the filebeat-%{+YYYY.MM.dd} index.</p>
+<p><img src="https://jackleila.github.io/programming/images/opensearch_logstash_filebeat.png" alt="Opensearch"></p>
 </article>
       </div>
       

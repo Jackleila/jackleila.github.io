@@ -36,4 +36,6 @@ And after the containers start up, the nodes and dashboard are accessible in htt
 
 # Playing around
 
-You can import some sample data to take a look at how Opensearch dashboard works. In the next tutorials, I will explain how to configure Logstash and Filebeats.
+You can import some sample data to take a look at how Opensearch dashboard works. In the next tutorials, I will explain how to configure Logstash and Filebeat.
+
+![Opensearch](https://jackleila.github.io/programming/images/opensearch.png)
