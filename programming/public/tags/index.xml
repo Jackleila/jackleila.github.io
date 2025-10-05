@@ -6,8 +6,22 @@
     <description>Recent content in Tags on It&#39;s a Dev&#39;s world</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 20 Jul 2025 17:34:16 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 05 Oct 2025 19:57:34 +0200</lastBuildDate>
     <atom:link href="https://jackleila.github.io/programming/public/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>fileless malware</title>
+      <link>https://jackleila.github.io/programming/public/tags/fileless-malware/</link>
+      <pubDate>Sun, 05 Oct 2025 19:57:34 +0200</pubDate>
+      <guid>https://jackleila.github.io/programming/public/tags/fileless-malware/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>powershell</title>
+      <link>https://jackleila.github.io/programming/public/tags/powershell/</link>
+      <pubDate>Sun, 05 Oct 2025 19:57:34 +0200</pubDate>
+      <guid>https://jackleila.github.io/programming/public/tags/powershell/</guid>
+      <description></description>
+    </item>
     <item>
       <title>filebeat</title>
       <link>https://jackleila.github.io/programming/public/tags/filebeat/</link>
